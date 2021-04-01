@@ -1,3 +1,16 @@
-body {
-  background-color: red;
-}
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/fonts';
+
+@import 'base/normalize';
+@import 'base/typography';
+
+@import 'components/button';
+
+@import 'layouts/competences';
+@import 'layouts/contact';
+@import 'layouts/features';
+@import 'layouts/footer';
+@import 'layouts/hero';
+@import 'layouts/navigation';
+@import 'layouts/showcase';

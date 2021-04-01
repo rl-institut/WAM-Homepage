@@ -1,5 +1,9 @@
 body {
-  background-color: red;
+  background-color: green;
+}
+
+.button {
+  height: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
