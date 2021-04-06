@@ -1,0 +1,27 @@
+.nav {
+  height: 4rem;
+  padding: 1rem;
+
+  @media screen and (min-width:$small-screen) {
+    height: 6rem;
+  }
+
+  @media screen and (min-width:$medium-screen) {
+    height: 8rem;
+    padding: 2rem;
+  }
+
+  &> div {
+    @include flex-row-space-between;
+    @include section-width;
+    margin: 0 auto;
+  }
+
+  &__logo img {
+    height: $logo-height-small;
+
+    @media screen and (min-width:$medium-screen) {
+      height: $logo-height-large;
+    }
+  }
+}
