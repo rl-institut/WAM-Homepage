@@ -1,3 +1,15 @@
+body {
+  font-family: $header-font-family;
+}
+
+h1, h2, h3, h4 {
+  font-family: R$header-font-family;
+}
+
+p, ul, li {
+  font-family: $main-font-family;
+}
+
 a,
 a:link,
 a:hover,
