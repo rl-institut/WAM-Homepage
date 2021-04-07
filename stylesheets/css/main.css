@@ -470,6 +470,9 @@ a:visited {
   background-color: #06D6A0;
   color: #002E50;
 }
+.btn--reversed {
+  background-color: #fff;
+}
 .btn--hollow {
   border: 1px solid #002E50;
   font-family: Raleway, Roboto, Arial, Helvetica, sans-serif;
@@ -719,73 +722,91 @@ a:visited {
   }
 }
 
-.skills {
+.skills,
+.contact {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 @media screen and (min-width: 1024px) {
-  .skills {
+  .skills,
+.contact {
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
 }
-.skills > div {
+.skills > div,
+.contact > div {
   width: calc(100% - (1rem * 2));
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 auto;
 }
 @media screen and (min-width: 640px) {
-  .skills > div {
+  .skills > div,
+.contact > div {
     width: calc(100% - (2rem * 2));
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .skills > div {
+  .skills > div,
+.contact > div {
     width: calc(100% - (2rem * 2));
     padding-left: 2rem;
     padding-right: 2rem;
     max-width: 82rem;
   }
 }
-.skills__item {
+.skills__item,
+.contact__item {
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
-  .skills__item {
+  .skills__item,
+.contact__item {
     display: flex;
     flex-direction: row;
     padding-bottom: 3rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .skills__item .text {
+  .skills__item .text,
+.contact__item .text {
     width: 50%;
   }
 }
-.skills__item .text .btn {
+.skills__item .text .btn,
+.contact__item .text .btn {
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
 @media screen and (min-width: 1024px) {
-  .skills__item .img {
+  .skills__item .img,
+.contact__item .img {
     width: 50%;
   }
 }
-.skills__item .img img {
+.skills__item .img img,
+.contact__item .img img {
   width: 100%;
 }
 @media screen and (max-width: 1023px) {
-  .skills__item--reversed .text {
+  .skills__item--reversed .text,
+.contact__item--reversed .text {
     order: 1;
   }
-  .skills__item--reversed .img {
+  .skills__item--reversed .img,
+.contact__item--reversed .img {
     order: 2;
   }
+}
+
+.contact {
+  background-color: #06D6A0;
+  color: #002E50;
 }
 
 /*# sourceMappingURL=main.css.map */

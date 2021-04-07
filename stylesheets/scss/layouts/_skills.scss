@@ -1,4 +1,5 @@
-.skills {
+.skills,
+.contact {
   @include section-padding-top-bottom;
 
   &> div {
@@ -41,4 +42,9 @@
       }
     }
   }
+}
+
+.contact {
+  background-color: $wam-primary-color-2;
+  color: $wam-primary-color-1;
 }

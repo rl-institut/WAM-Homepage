@@ -9,6 +9,10 @@
     color: $wam-primary-color-1;
   }
 
+  &--reversed {
+    background-color: $white;
+  }
+
   &--hollow {
     border: 1px solid $wam-primary-color-1;
     font-family: $main-font-family;
