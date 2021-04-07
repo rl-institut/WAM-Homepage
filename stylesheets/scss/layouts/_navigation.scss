@@ -1,20 +1,17 @@
 .nav {
-  height: 4rem;
-  padding: 1rem;
-
-  @media screen and (min-width:$small-screen) {
-    height: 6rem;
-  }
+  width: 100%;
+  padding: $top-nav-padding-small 0;
+  position: fixed;
+  top: 0;
+  background-color: $white;
 
   @media screen and (min-width:$medium-screen) {
-    height: 8rem;
-    padding: 2rem;
+    padding: $top-nav-padding-large-height 0;
   }
 
   &> div {
     @include flex-row-space-between;
     @include section-width;
-    margin: 0 auto;
   }
 
   &__logo img {
@@ -22,6 +19,16 @@
 
     @media screen and (min-width:$medium-screen) {
       height: $logo-height-large;
+    }
+  }
+
+  &__menu {
+    height: $logo-height-small;
+    line-height: $logo-height-small;
+
+    @media screen and (min-width:$medium-screen) {
+      height: $logo-height-large;
+      line-height: $logo-height-large;
     }
   }
 }

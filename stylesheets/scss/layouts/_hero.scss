@@ -1,0 +1,48 @@
+.hero {
+  background-color: $wam-gray-1;
+  margin-top: calc(#{$logo-height-small} + (#{$top-nav-padding-small} * 2));
+  padding-top: 2rem;
+
+  @media screen and (min-width:$medium-screen) {
+    margin-top: calc(#{$logo-height-large} + (#{$top-nav-padding-large-height} * 2));
+  }
+
+  &> div {
+    @include section-width;
+    
+    @media screen and (min-width:$medium-screen) {
+      @include flex-row;
+    }
+  }
+
+  &__heading {
+    @media screen and (min-width:$medium-screen) {
+      width: $section-text-width;
+    }
+
+    h1 {
+      font-size: $font-size-large;
+
+      @media screen and (min-width:$medium-screen) {
+        margin-top: 1.25rem;
+      }
+
+      @media screen and (min-width:$large-screen) {
+        margin-top: 1.5rem;
+        font-size: $font-size-xlarge;
+      }
+
+      .main-heading {
+        display: block
+      }
+
+      .sub-heading {
+        display: block
+      }
+    }
+  }
+
+  &__img {
+    @include section-img;
+  }
+}

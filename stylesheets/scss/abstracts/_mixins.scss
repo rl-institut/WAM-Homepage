@@ -1,10 +1,34 @@
 // Section-width
 @mixin section-width {
-  width: 100%;
-  max-width: 92rem;
+  width: calc(100% - (#{$top-nav-padding-small} * 2));
+  padding-left: $top-nav-padding-small;
+  padding-right: $top-nav-padding-small;
+  margin: 0 auto;
+
+  @media screen and (min-width:$medium-screen) {
+    width: calc(100% - (#{$top-nav-padding-large} * 2));
+    padding-left: $top-nav-padding-large;
+    padding-right: $top-nav-padding-large;
+    max-width: $section-max-width;
+  }
+}
+
+// Layout
+@mixin section-img {
+  @media screen and (min-width:$medium-screen) {
+    width: $section-img-width;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 // Flex
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 @mixin flex-row-space-between {
   display: flex;
   flex-direction: row;

@@ -12,7 +12,7 @@ $white: #fff;
 // Media-breaks
 $small-screen: 640px;
 $medium-screen: 1024px;
-$large-screen: 1200px;
+$large-screen: 1250px;
 $xlarge-screen: 1500px;
 
 // Typography {
@@ -24,6 +24,16 @@ $font-size-medium: 1.414rem; // 25.45px
 $font-size-normal: 1rem; //18px
 $font-size-small: 0.8rem; // 14.40px
 
+// Nav
+$top-nav-padding-small: 1rem;
+$top-nav-padding-large: 2rem;
+$top-nav-padding-large-height: 1rem;
+
 // Logo
-$logo-height-small: 2.5rem;
+$logo-height-small: 2rem;
 $logo-height-large: 3rem;
+
+// Layout
+$section-max-width: 92rem;
+$section-text-width: 50%;
+$section-img-width: 50%;
