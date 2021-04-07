@@ -6,8 +6,12 @@
   }
 
   &__item {
+    @include flex-column;
+    padding-bottom: 2rem;
+
     @media screen and (min-width:$medium-screen) {
       @include flex-row;
+      padding-bottom: 3rem;
     }
 
     .text {
@@ -23,6 +27,18 @@
 
     .img {
       @include section-img;
+    }
+
+    &--reversed {
+      @media screen and (max-width:$medium-screen - 1) {
+        .text {
+          order: 1;
+        }
+    
+        .img {
+          order: 2;
+        }
+      }
     }
   }
 }

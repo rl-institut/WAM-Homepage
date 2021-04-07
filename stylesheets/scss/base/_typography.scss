@@ -9,6 +9,7 @@ h1, h2, h3, h4 {
 
 h2 {
   font-size: $font-size-medium;
+  margin-bottom: 1rem;
 
   @media screen and (min-width:$medium-screen) {
     font-size: $font-size-medium-2;
@@ -16,6 +17,7 @@ h2 {
 
   @media screen and (min-width:$large-screen) {
     font-size: $font-size-large;
+    margin-bottom: 1.5rem;
   }
 }
 

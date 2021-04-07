@@ -412,6 +412,7 @@ h1, h2, h3, h4 {
 
 h2 {
   font-size: 1.414rem;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 1024px) {
   h2 {
@@ -421,6 +422,7 @@ h2 {
 @media screen and (min-width: 1250px) {
   h2 {
     font-size: 2.827rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -675,10 +677,16 @@ a:visited {
     max-width: 82rem;
   }
 }
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
 @media screen and (min-width: 1024px) {
   .skills__item {
     display: flex;
     flex-direction: row;
+    padding-bottom: 3rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -697,6 +705,14 @@ a:visited {
 }
 .skills__item .img img {
   width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .skills__item--reversed .text {
+    order: 1;
+  }
+  .skills__item--reversed .img {
+    order: 2;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
