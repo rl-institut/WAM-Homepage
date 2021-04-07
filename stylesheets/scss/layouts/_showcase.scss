@@ -1,0 +1,70 @@
+.showcase {
+  @include section-padding-top-bottom;
+
+  &> div {
+    @include section-width;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  &__items {
+    @media screen and (min-width:$small-screen) {
+      @include flex-row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 3rem;
+    }
+  }
+
+  .item {
+    @include flex-column-align-center;
+    padding-bottom: 2rem;
+
+    @media screen and (min-width:$small-screen) and (max-width:$medium-screen - 1) {
+      width: calc(50% - #{$wam-item-padding-medium});
+
+      &:nth-child(2n+1) {
+        padding-right: $wam-item-padding-medium;
+      }
+
+      &:nth-child(2n) {
+        padding-left: $wam-item-padding-medium;
+      }
+    }
+
+    @media screen and (min-width:$medium-screen) {
+      padding-bottom: 3rem;
+      width: calc(33.33% - #{$wam-item-padding-large});
+
+      &:nth-child(3n+1) {
+        padding-right: $wam-item-padding-large;
+      }
+
+      &:nth-child(3n+2) {
+        padding-left: calc(#{$wam-item-padding-large} / 2);
+        padding-right: calc(#{$wam-item-padding-large} / 2);
+      }
+
+      &:nth-child(3n+3) {
+        padding-left: $wam-item-padding-large;
+      }
+    }
+
+    &__heading h3 {
+      text-align: center;
+
+      @media screen and (min-width:$medium-screen) {
+        height: 3.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    &__img {
+      background-color: $wam-gray-1;
+      width: 14rem;
+      height: 10rem;
+    }
+  }
+}

@@ -21,8 +21,7 @@
   }
 
   .item {
-    @include flex-column;
-    align-items: center;
+    @include flex-column-align-center;
 
     @media screen and (min-width:$small-screen) {
       width: 33%;
