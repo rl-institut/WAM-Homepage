@@ -8,7 +8,8 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: $font-size-medium;
+  @include heading-size-medium;
+  font-weight: 600;
   margin-bottom: 1rem;
 
   @media screen and (min-width:$medium-screen) {
@@ -18,6 +19,16 @@ h2 {
   @media screen and (min-width:$large-screen) {
     font-size: $font-size-large;
     margin-bottom: 1.5rem;
+  }
+}
+
+h3 {
+  @include heading-size-normal;
+  font-weight: 600;
+
+  @media screen and (min-width:$medium-screen) {
+    @include heading-size-medium;
+    font-weight: 400;
   }
 }
 

@@ -1,0 +1,31 @@
+.features {
+  background-color: $wam-primary-color-1;
+  color: $white;
+  @include section-padding-top-bottom;
+
+  &> div {
+    @include section-width;
+  }
+
+  h2 {
+    text-align: center
+  }
+
+  &__items {
+    width: 100%;
+    padding-top: 2rem;
+
+    @media screen and (min-width:$small-screen) {
+      @include flex-row-space-between;
+    }
+  }
+
+  .item {
+    @include flex-column;
+    align-items: center;
+
+    @media screen and (min-width:$small-screen) {
+      width: 33%;
+    }
+  }
+}

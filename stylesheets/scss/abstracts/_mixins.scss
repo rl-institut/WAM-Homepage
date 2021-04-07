@@ -39,6 +39,17 @@
   }
 }
 
+// Typography
+@mixin heading-size-normal {
+  font-size: $font-size-normal;
+  letter-spacing: 0.05rem;
+}
+
+@mixin heading-size-medium {
+  font-size: $font-size-medium;
+  letter-spacing: 0.03rem;
+}
+
 // Flex
 @mixin flex-row {
   display: flex;
