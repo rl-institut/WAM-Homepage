@@ -20,14 +20,17 @@ $header-font-family: Roboto, Arial, Helvetica, sans-serif;
 $main-font-family: Raleway, Roboto, Arial, Helvetica, sans-serif;
 $font-size-xlarge: 3.998rem; // 71.96px
 $font-size-large: 2.827rem; // 50.89px
+$font-size-medium-2: 1.999rem; // 35.99px
 $font-size-medium: 1.414rem; // 25.45px
 $font-size-normal: 1rem; //18px
 $font-size-small: 0.8rem; // 14.40px
 
 $line-height-normal: 1.75rem;
+$letter-spacing-normal: 0.03rem;
 
 // Nav
-$top-nav-padding-small: 1rem;
+$top-nav-padding-xsmall: 1rem;
+$top-nav-padding-small: 2rem;
 $top-nav-padding-large: 2rem;
 $top-nav-padding-large-height: 1rem;
 
@@ -42,3 +45,10 @@ $button-border-radius: 5px;
 $section-max-width: 82rem;
 $section-text-width: 50%;
 $section-img-width: 50%;
+$section-top-padding-small: 3rem;
+$section-bottom-padding-small: 3rem;
+$section-top-padding-large: 7rem;
+$section-bottom-padding-large: 7rem;
+
+// Z-Index
+$z-index-top-nav: 10;

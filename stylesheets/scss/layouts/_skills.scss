@@ -1,0 +1,28 @@
+.skills {
+  @include section-padding-top-bottom;
+
+  &> div {
+    @include section-width;
+  }
+
+  &__item {
+    @media screen and (min-width:$medium-screen) {
+      @include flex-row;
+    }
+
+    .text {
+      @media screen and (min-width:$medium-screen) {
+        width: $section-text-width;
+      }
+
+      .btn {
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    .img {
+      @include section-img;
+    }
+  }
+}

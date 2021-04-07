@@ -7,8 +7,24 @@ h1, h2, h3, h4 {
   font-family: $header-font-family;
 }
 
+h2 {
+  font-size: $font-size-medium;
+
+  @media screen and (min-width:$medium-screen) {
+    font-size: $font-size-medium-2;
+  }
+
+  @media screen and (min-width:$large-screen) {
+    font-size: $font-size-large;
+  }
+}
+
 p, ul, li {
   font-family: $main-font-family;
+}
+
+p {
+  line-height: $line-height-normal;
 }
 
 a,
