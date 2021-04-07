@@ -2,9 +2,12 @@
   background-color: $wam-gray-1;
   margin-top: calc(#{$logo-height-small} + (#{$top-nav-padding-small} * 2));
   padding-top: 2rem;
+  padding-bottom: 6rem;
+  position: relative;
 
   @media screen and (min-width:$medium-screen) {
     margin-top: calc(#{$logo-height-large} + (#{$top-nav-padding-large-height} * 2));
+    padding-bottom: 4rem;
   }
 
   &> div {
@@ -21,9 +24,15 @@
     }
 
     h1 {
-      font-size: $font-size-large;
+      font-size: $font-size-medium;
+      text-align: center;
+
+      @media screen and (min-width:$small-screen) {
+        font-size: $font-size-large;
+      }
 
       @media screen and (min-width:$medium-screen) {
+        text-align: left;
         margin-top: 1.25rem;
       }
 
@@ -37,12 +46,56 @@
       }
 
       .sub-heading {
-        display: block
+        display: block;
+        padding-top: 1rem;
+        font-family: $main-font-family;
+        font-size: $font-size-normal;
+        line-height: $line-height-normal;
+        font-weight: 300;
+
+        @media screen and (min-width:$medium-screen) {
+          max-width: 32rem;
+          padding-top: 2rem;
+        }
+
+        .bold {
+          font-weight: 700;
+        }
       }
     }
   }
 
   &__img {
     @include section-img;
+    text-align: center;
+
+    img {
+      @media screen and (max-width:$medium-screen - 1px) {
+        max-width: 32rem;
+      }
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 5rem;
+
+    @media screen and (max-width:$medium-screen - 1px) {
+      bottom: 3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+    }
+
+    @media screen and (min-width:$large-screen) {
+      bottom: 6rem;
+    }
+
+    @media screen and (min-width:$xlarge-screen) {
+      bottom: 9rem;
+    }
   }
 }

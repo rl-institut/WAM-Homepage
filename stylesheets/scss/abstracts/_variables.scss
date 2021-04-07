@@ -24,6 +24,8 @@ $font-size-medium: 1.414rem; // 25.45px
 $font-size-normal: 1rem; //18px
 $font-size-small: 0.8rem; // 14.40px
 
+$line-height-normal: 1.75rem;
+
 // Nav
 $top-nav-padding-small: 1rem;
 $top-nav-padding-large: 2rem;
@@ -33,7 +35,10 @@ $top-nav-padding-large-height: 1rem;
 $logo-height-small: 2rem;
 $logo-height-large: 3rem;
 
+// Buttons
+$button-border-radius: 5px;
+
 // Layout
-$section-max-width: 92rem;
+$section-max-width: 82rem;
 $section-text-width: 50%;
 $section-img-width: 50%;

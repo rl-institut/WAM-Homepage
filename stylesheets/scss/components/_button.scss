@@ -1,3 +1,11 @@
-.button {
-  height: 2rem;
+.btn {
+  padding: .75rem 1rem;
+  border-radius: $button-border-radius;
+
+  &--hollow {
+    border: 1px solid $wam-primary-color-1;
+    font-family: $main-font-family;
+    font-weight: 600;
+    font-size: 1rem;
+  }
 }
