@@ -1,0 +1,41 @@
+.footer {
+  @include section-padding-top-bottom;
+  border-top: 1px solid $wam-gray-1;
+  position: relative;
+
+  &> div {
+    @include section-width;
+
+    @media screen and (min-width:$medium-screen) {
+      @include flex-row;
+      justify-content: space-between;
+    }
+  }
+
+  &__logos {
+    padding-bottom: 2rem;
+    img {
+      height: 3rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__links {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      list-style: none;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &__copyright {
+    @media screen and (min-width:$medium-screen) {
+      position: absolute;
+      bottom: 5rem;
+    }
+  }
+}

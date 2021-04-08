@@ -538,6 +538,68 @@ a:visited {
   }
 }
 
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #F4F4F4;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+.footer > div {
+  width: calc(100% - (1rem * 2));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .footer > div {
+    width: calc(100% - (2rem * 2));
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer > div {
+    width: calc(100% - (2rem * 2));
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 82rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer__logos {
+  padding-bottom: 2rem;
+}
+.footer__logos img {
+  height: 3rem;
+  padding-right: 1.5rem;
+}
+.footer__links ul {
+  margin: 0;
+  padding: 0;
+}
+.footer__links ul li {
+  list-style: none;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .footer__copyright {
+    position: absolute;
+    bottom: 5rem;
+  }
+}
+
 .hero {
   background-color: #F4F4F4;
   margin-top: calc(2rem + (1rem * 2));
