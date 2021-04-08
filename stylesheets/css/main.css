@@ -705,6 +705,7 @@ a:visited {
 .hero__btn {
   position: absolute;
   bottom: 5rem;
+  width: max-content;
 }
 @media screen and (max-width: 1023px) {
   .hero__btn {
