@@ -977,6 +977,7 @@ a:visited {
   .skills__item .text,
 .contact__item .text {
     width: 50%;
+    padding-right: 3rem;
   }
 }
 .skills__item .text .btn,
@@ -1002,6 +1003,12 @@ a:visited {
   .skills__item--reversed .img,
 .contact__item--reversed .img {
     order: 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills__item--reversed .text,
+.contact__item--reversed .text {
+    padding-left: 3rem;
   }
 }
 

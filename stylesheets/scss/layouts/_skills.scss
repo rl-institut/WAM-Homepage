@@ -18,6 +18,7 @@
     .text {
       @media screen and (min-width:$medium-screen) {
         width: $section-text-width;
+        padding-right: 3rem;
       }
 
       .btn {
@@ -38,6 +39,12 @@
     
         .img {
           order: 2;
+        }
+      }
+
+      @media screen and (min-width:$medium-screen) {
+        .text {
+          padding-left: 3rem;
         }
       }
     }
