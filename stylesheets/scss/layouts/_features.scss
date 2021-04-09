@@ -22,9 +22,22 @@
 
   .item {
     @include flex-column-align-center;
+    padding-bottom: 2rem;
 
     @media screen and (min-width:$small-screen) {
       width: 33%;
+    }
+
+    @media screen and (min-width:$medium-screen) {
+      padding-bottom: 0;
+    }
+
+    &__icon img {
+      width: 5rem;
+
+      @media screen and (min-width:$medium-screen) {
+        width: 8rem;
+      }
     }
   }
 }
