@@ -8,11 +8,25 @@
 
   &__item {
     @include flex-column;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 
     @media screen and (min-width:$medium-screen) {
       @include flex-row;
-      padding-bottom: 3rem;
+      padding-bottom: 5rem;
+    }
+
+    @media screen and (min-width:$large-screen) {
+      padding-bottom: 7rem;
+    }
+
+    @media screen and (min-width:$xlarge-screen) {
+      padding-bottom: 9rem;
+    }
+
+    &:last-child {
+      @media screen and (min-width:$medium-screen) {
+        padding-bottom: 2rem;
+      }
     }
 
     .text {
@@ -54,4 +68,8 @@
 .contact {
   background-color: $wam-primary-color-2;
   color: $wam-primary-color-1;
+
+  &__item {
+    padding-bottom: 2rem;
+  }
 }

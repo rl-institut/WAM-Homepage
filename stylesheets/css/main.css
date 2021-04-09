@@ -538,11 +538,6 @@ a:visited {
     width: 33%;
   }
 }
-@media screen and (min-width: 1024px) {
-  .features .item {
-    padding-bottom: 0;
-  }
-}
 .features .item__icon img {
   width: 5rem;
 }
@@ -985,14 +980,32 @@ a:visited {
 .contact__item {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 @media screen and (min-width: 1024px) {
   .skills__item,
 .contact__item {
     display: flex;
     flex-direction: row;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .skills__item,
+.contact__item {
+    padding-bottom: 7rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .skills__item,
+.contact__item {
+    padding-bottom: 9rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills__item:last-child,
+.contact__item:last-child {
+    padding-bottom: 2rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1037,6 +1050,9 @@ a:visited {
 .contact {
   background-color: #06D6A0;
   color: #002E50;
+}
+.contact__item {
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
