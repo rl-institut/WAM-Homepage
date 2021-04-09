@@ -62,9 +62,18 @@
     }
 
     &__img {
-      background-color: $wam-gray-1;
-      width: 14rem;
-      height: 10rem;
+      width: $wam-item-width;
+      height: $wam-item-height;
+
+      img {
+        width: $wam-item-width;
+        height: $wam-item-height;
+        border-radius: $button-border-radius;
+        -webkit-border-radius: $button-border-radius;
+        -moz-border-radius: $button-border-radius;
+        -ms-border-radius: $button-border-radius;
+        -o-border-radius: $button-border-radius;
+      }
     }
   }
 }

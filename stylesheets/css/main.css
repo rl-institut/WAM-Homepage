@@ -932,9 +932,17 @@ a:visited {
   }
 }
 .showcase .item__img {
-  background-color: #F4F4F4;
-  width: 14rem;
+  width: 10rem;
   height: 10rem;
+}
+.showcase .item__img img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .skills,
