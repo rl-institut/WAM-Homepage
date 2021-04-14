@@ -450,6 +450,11 @@ p {
   line-height: 1.75rem;
 }
 
+@media screen and (max-width: 1023px) {
+  div, p, ul, li, a {
+    font-size: 0.888rem;
+  }
+}
 a,
 a:link,
 a:hover,
@@ -485,7 +490,7 @@ a:visited {
   background-color: #002E50;
   color: #fff;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .features {
@@ -550,7 +555,7 @@ a:visited {
 
 .footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   border-top: 1px solid #F4F4F4;
   position: relative;
 }
@@ -613,7 +618,7 @@ a:visited {
 .hero {
   background-color: #F4F4F4;
   margin-top: calc(2rem + (1rem * 2));
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 6rem;
   position: relative;
 }
@@ -789,7 +794,7 @@ a:visited {
 
 .nav {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem 0 0.75rem;
   position: fixed;
   top: 0;
   background-color: #fff;
@@ -845,7 +850,7 @@ a:visited {
 
 .showcase {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .showcase {
@@ -945,7 +950,7 @@ a:visited {
 .skills,
 .contact {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .skills,
