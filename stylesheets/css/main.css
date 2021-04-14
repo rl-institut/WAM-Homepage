@@ -486,6 +486,11 @@ a:visited {
   font-size: 1rem;
 }
 
+.lazy-img {
+  filter: blur(1.25rem);
+  -webkit-filter: blur(1.25rem);
+}
+
 .features {
   background-color: #002E50;
   color: #fff;
