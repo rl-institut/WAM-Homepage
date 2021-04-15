@@ -39,5 +39,3 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
 });
-
-console.log(allSections);
