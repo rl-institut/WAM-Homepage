@@ -72,3 +72,20 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+// Translate
+@mixin translateY($translateY-value) {
+  transform: translateY($translateY-value);
+  -webkit-transform: translateY($translateY-value);
+  -moz-transform: translateY($translateY-value);
+  -ms-transform: translateY($translateY-value);
+  -o-transform: translateY($translateY-value);
+}
+
+@mixin translateX($translateX-value) {
+  transform: translateY($translateX-value);
+  -webkit-transform: translateY($translateX-value);
+  -moz-transform: translateY($translateX-value);
+  -ms-transform: translateY($translateX-value);
+  -o-transform: translateY($translateX-value);
+}
