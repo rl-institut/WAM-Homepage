@@ -83,9 +83,9 @@
 }
 
 @mixin translateX($translateX-value) {
-  transform: translateY($translateX-value);
-  -webkit-transform: translateY($translateX-value);
-  -moz-transform: translateY($translateX-value);
-  -ms-transform: translateY($translateX-value);
-  -o-transform: translateY($translateX-value);
+  transform: translateX($translateX-value);
+  -webkit-transform: translateX($translateX-value);
+  -moz-transform: translateX($translateX-value);
+  -ms-transform: translateX($translateX-value);
+  -o-transform: translateX($translateX-value);
 }

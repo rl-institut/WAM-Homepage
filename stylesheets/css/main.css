@@ -62,24 +62,36 @@
   font-display: swap;
 }
 .js-section {
-  -webkit-transform: translateY(2rem);
   transform: translateY(2rem);
+  -webkit-transform: translateY(2rem);
+  -moz-transform: translateY(2rem);
+  -ms-transform: translateY(2rem);
+  -o-transform: translateY(2rem);
   opacity: 0;
 }
 .js-section--animate {
   animation: slide-in-bottom 0.75s cubic-bezier(0.4, 0, 0.2, 1) both;
   -webkit-animation: slide-in-bottom 0.75s cubic-bezier(0.4, 0, 0.2, 1) both;
+  -moz-animation: slide-in-bottom 0.75s cubic-bezier(0.4, 0, 0.2, 1) both;
+  -ms-animation: slide-in-bottom 0.75s cubic-bezier(0.4, 0, 0.2, 1) both;
+  -o-animation: slide-in-bottom 0.75s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
 @keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(2rem);
     transform: translateY(2rem);
+    -webkit-transform: translateY(2rem);
+    -moz-transform: translateY(2rem);
+    -ms-transform: translateY(2rem);
+    -o-transform: translateY(2rem);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0);
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     opacity: 1;
   }
 }
