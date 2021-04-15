@@ -12,6 +12,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="stylesheets/css/main.css">
 
+
     <title>WAM - Web Applications & Maps</title>
   </head>
 
@@ -39,10 +40,12 @@
           </div>
           <div class="hero__img">
             <img 
-            src="assets/illustrations/WAM_Illustrations_hero-lazy.png" 
-            data-src="assets/illustrations/WAM_Illustrations_hero-website.svg" 
-            alt="Illustration von einer Karte auf dem Browser, die das Energiesystem darstellen sollte" 
-            class="lazy-img" 
+            src="assets/illustrations/WAM_Illustrations_hero-website.svg" 
+            srcset="
+              assets/illustrations/WAM_Illustrations_hero-website-600.png 600w,
+              assets/illustrations/WAM_Illustrations_hero-website.svg
+            " 
+            alt="Karte einer deutschen Region mit gefärbten Flächen in einer App"
             />
           </div>
           <div class="hero__btn">
@@ -67,8 +70,13 @@
               <img 
               src="assets/illustrations/Energy_system-lazy.png" 
               data-src="assets/illustrations/Energy_system.png" 
+              data-srcset="
+                assets/illustrations/Energy_system-600.svg 600w,
+                assets/illustrations/Energy_system.png
+              " 
+              class="lazy"
+              data-src="assets/illustrations/Energy_system.png" 
               alt="Das Energiesystem wird einfacher mit einer Web App dargestellt"
-              class="lazy-img" 
               />
             </div>
           </div>
@@ -76,9 +84,13 @@
             <div class="img">
               <img 
               src="assets/illustrations/WAM_Illustrations_map-lazy.png"
-              data-src="assets/illustrations/WAM_Illustrations_map-website.svg" 
+              data-src="assets/illustrations/WAM_Illustrations_map-website.png" 
+              data-srcset="
+                assets/illustrations/WAM_Illustrations_map-website-600.png 600w,
+                assets/illustrations/WAM_Illustrations_map-website.png
+              " 
               alt="Karte einer deutschen Region mit gefärbten Flächen in einer App"
-              class="lazy-img"
+              class="lazy"
               />
             </div>
             <div class="text">
@@ -95,8 +107,12 @@
               <img 
               src="assets/illustrations/WAM_Illustrations_target_group-lazy.png" 
               data-src="assets/illustrations/WAM_Illustrations_target_group-website.svg" 
+              data-srcset="
+                assets/illustrations/WAM_Illustrations_target_group-website-600.svg 600w,
+                assets/illustrations/WAM_Illustrations_target_group-website.svg
+              " 
               alt="Illustration von Mobile Usern und drei verschiedenen Geräten"
-              class="lazy-img"
+              class="lazy"
               />
             </div>
           </div>
@@ -104,9 +120,13 @@
             <div class="img">
               <img 
               src="assets/illustrations/WAM_Illustrations_methods-lazy.png"
-              data-src="assets/illustrations/WAM_Illustrations_methods-website.svg"  
+              data-src="assets/illustrations/WAM_Illustrations_methods-website.svg" 
+              data-srcset="
+                assets/illustrations/WAM_Illustrations_methods-website-600.png 600w,
+                assets/illustrations/WAM_Illustrations_methods-website.svg
+              " 
               alt="Illustration von einer verschiedenen Charts und Reglern auf Desktop und Mobile"
-              class="lazy-img"
+              class="lazy"
               />
             </div>
             <div class="text">
@@ -156,8 +176,12 @@
               <img 
               src="assets/illustrations/WAM_Illustrations_charts-lazy.png" 
               data-src="assets/illustrations/WAM_Illustrations_charts-website.svg" 
+              data-srcset="
+              assets/illustrations/WAM_Illustrations_charts-website-600.svg 600w,
+                assets/illustrations/WAM_Illustrations_charts-website.svg
+              " 
               alt="Verschiedene Charts über die Energieleistung auf einem Desktop Bildschirm"
-              class="lazy-img"
+              class="lazy"
               />
             </div>
             <div class="text">
@@ -183,7 +207,7 @@
               src="assets/illustrations/WAM_Illustrations_wam_contact-lazy.png"
               data-src="assets/illustrations/WAM_Illustrations_wam_contact-website.svg" 
               alt="Mobiles Gerät mit UI und Energiekomponenten"
-              class="lazy-img"
+              class="lazy"
               >
             </div>
           </div>
@@ -294,6 +318,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
     <script src="js/project.js"></script>
   </body>
 </html>
