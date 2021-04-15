@@ -927,7 +927,6 @@ a:visited {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 3rem;
   }
 }
 .showcase .item {
