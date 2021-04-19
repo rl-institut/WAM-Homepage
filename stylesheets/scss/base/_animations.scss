@@ -1,3 +1,19 @@
 // animation on scroll
 $aos-distance: 70px;
 @import '../../../node_modules/aos/src/sass/aos.scss';
+
+.a-hero-btn {
+  animation-name: a-hero-btn;
+  animation-duration: 1s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes a-hero-btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

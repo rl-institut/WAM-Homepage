@@ -827,6 +827,21 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   transform: perspective(2500px) rotateX(0);
 }
 
+.a-hero-btn {
+  animation-name: a-hero-btn;
+  animation-duration: 1s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes a-hero-btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1492,7 +1507,7 @@ a:visited {
 .hero__btn {
   position: absolute;
   bottom: 5rem;
-  width: max-content;
+  opacity: 1;
 }
 @media screen and (max-width: 1023px) {
   .hero__btn {
