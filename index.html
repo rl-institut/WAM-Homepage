@@ -10,6 +10,7 @@
     <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="stylesheets/css/main.css">
 
 
@@ -32,13 +33,13 @@
     <main>
       <section class="hero">
         <div>
-          <div class="hero__heading">
+          <div class="hero__heading" data-aos="fade-up" data-aos="mobile-animation">
             <h1>
               <span class="main-heading">Die Energiewende veranschaulichen</span>
               <span class="sub-heading">...mit Webanwendungen und Karten für Desktops und Smartphones: <span class="bold">W</span>eb <span class="bold">A</span>pp <span class="bold">M</span>aps - <span class="bold">WAMS</span>.</span>
             </h1>
           </div>
-          <div class="hero__img">
+          <div class="hero__img" data-aos="fade-left" data-aos-delay="300" data-aos="mobile-animation">
             <img 
             src="assets/illustrations/WAM_Illustrations_hero-website.svg" 
             srcset="
@@ -58,15 +59,15 @@
 
       <section class="skills">
         <div>
-          <div class="skills__item js-section">
-            <div class="text">
+          <div class="skills__item">
+            <div class="text" data-aos="fade-up" data-aos-delay="300">
               <h2>Das Energiesystem ist komplex</h2>
               <p>Die Energiewende hat viele komplexe Aspekte, die alle im Zusammenhang stehen. Sie sind oft schwer an die Zielgruppe zu vermitteln. Mit Web Apps erreichen Sie Ihre Zielgruppe. Wir bauen sie für Sie.</p>
               <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" class="btn btn--cta">
                 Kontaktieren Sie uns
               </a>
             </div>
-            <div class="img">
+            <div class="img" data-aos="fade-left" data-aos-delay="600">
               <img 
               src="assets/illustrations/Energy_system-lazy.png" 
               data-src="assets/illustrations/Energy_system.png" 
@@ -80,8 +81,8 @@
               />
             </div>
           </div>
-          <div class="skills__item skills__item--reversed js-section">
-            <div class="img">
+          <div class="skills__item skills__item--reversed" data-aos="fade-up">
+            <div class="img" data-aos="fade-right" data-aos-delay="300">
               <img 
               src="assets/illustrations/WAM_Illustrations_map-lazy.png"
               data-src="assets/illustrations/WAM_Illustrations_map-website.png" 
@@ -93,17 +94,17 @@
               class="lazy"
               />
             </div>
-            <div class="text">
+            <div class="text" data-aos="fade-up">
               <h2>Mit Karten werden komplexe Daten auf einen Blick verständlich</h2>
               <p>Die WAMs helfen dabei, große Datenmengen zu überblicken. Zum Beispiel mit interaktiven Grafiken, Karten oder Quizspielen.</p>
             </div>
           </div>
-          <div class="skills__item js-section">
-            <div class="text">
+          <div class="skills__item">
+            <div class="text" data-aos="fade-up">
               <h2>Die Webanwendungen involvieren Ihre Zielgruppe</h2>
               <p>Die WAMs helfen dabei Beteiligte vor Ort oder von zu Hause direkt einzubinden. Reaktive Darstellungen sind für alle verständlich.</p>
             </div>
-            <div class="img">
+            <div class="img" data-aos="fade-left" data-aos-delay="300">
               <img 
               src="assets/illustrations/WAM_Illustrations_target_group-lazy.png" 
               data-src="assets/illustrations/WAM_Illustrations_target_group-website.svg" 
@@ -116,8 +117,8 @@
               />
             </div>
           </div>
-          <div class="skills__item skills__item--reversed js-section">
-            <div class="img">
+          <div class="skills__item skills__item--reversed">
+            <div class="img" data-aos="fade-right" data-aos-delay="300">
               <img 
               src="assets/illustrations/WAM_Illustrations_methods-lazy.png"
               data-src="assets/illustrations/WAM_Illustrations_methods-website.svg" 
@@ -129,7 +130,7 @@
               class="lazy"
               />
             </div>
-            <div class="text">
+            <div class="text" data-aos="fade-up">
               <h2>Wissenschaftliche Methoden sind nachvollziehbar</h2>
               <p>Die WAMs basieren auf realen Modellen und Daten aus der Forschung. Sie helfen wissenschaftliche Prozesse transparent und nachvollziehbar zu machen. Sie werden gebaut von Energiewende-Expert*innen, Software-Entwickler*innen und Open-Science-Enthusiast*innen mit viel Know-How.</p>
             </div>
@@ -137,10 +138,10 @@
         </div>
       </section>
 
-      <section class="features">
+      <section class="features" data-aos="fade-up">
         <div>
-          <h2 class="js-section">Energiewende vermitteln</h2>
-          <div class="features__items js-section">
+          <h2>Energiewende vermitteln</h2>
+          <div class="features__items">
             <div class="item">
               <div class="item__icon">
                 <img src="assets/icons/i_visualization.svg" alt="Dashboard mit Chart">
@@ -171,8 +172,8 @@
 
       <section class="skills">
         <div>
-          <div class="skills__item skills__item--reversed js-section">
-            <div class="img">
+          <div class="skills__item skills__item--reversed">
+            <div class="img" data-aos="fade-right" data-aos-delay="300">
               <img 
               src="assets/illustrations/WAM_Illustrations_charts-lazy.png" 
               data-src="assets/illustrations/WAM_Illustrations_charts-website.svg" 
@@ -184,7 +185,7 @@
               class="lazy"
               />
             </div>
-            <div class="text">
+            <div class="text" data-aos="fade-up">
               <h2>Wissenschaftler*innen befreien Daten</h2>
               <p>Als Wissenschaftler*innen des Reiner Lemoine Instituts wollen wir die Daten aus ihren Tabellen befreien. Unser Team aus Energiewendeprofis, Softwareentwickler*innen und Open-Source-Begeisterten ist überzeugt davon, dass die Energiewende am besten verstanden werden kann, wenn man selbst mit Verbrauchs- und Erzeugungszahlen spielen darf.</p>
             </div>
@@ -194,15 +195,15 @@
 
       <section class="contact">
         <div>
-          <div class="contact__item js-section">
-            <div class="text">
+          <div class="contact__item">
+            <div class="text" data-aos="fade-up">
               <h2>Wir setzen Ihr Projekt um</h2>
               <p>Die WAMs enstehen zum Teil in Forschungsprojekten, zum Teil fertigen wir sie direkt im Auftrag von Energiewendeakteuren an.</p>
               <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" class="btn btn--cta btn--reversed">
                 Kontaktieren Sie uns
               </a>
             </div>
-            <div class="img">
+            <div class="img" data-aos="fade-left" data-aos-delay="300">
               <img 
               src="assets/illustrations/WAM_Illustrations_wam_contact-lazy.png"
               data-src="assets/illustrations/WAM_Illustrations_wam_contact-website.svg" 
@@ -216,9 +217,9 @@
 
       <section class="showcase" id="showcase">
         <div>
-          <h2 class="js-section">Beispiel-WAMs</h2>
-          <div class="showcase__items js-section">
-            <div class="item">
+          <h2 data-aos="fade-up">Beispiel-WAMs</h2>
+          <div class="showcase__items">
+            <div class="item" data-aos="fade-up" data-aos-delay="150">
               <div class="item__heading">
                 <h3>Agora</h3>
               </div>
@@ -231,7 +232,7 @@
                 <p>Webtool für Agora Energiewende zur interaktiven Erkundung von Potenzialflächen für Windenergie in Deutschland.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
                 <h3>E-MetroBus</h3>
               </div>
@@ -244,7 +245,7 @@
                 <p>Spielerische Webapp für's Smartphone im Auftrag der BVG. Quiz und Infos rund um E-Mobilität im ÖPNV.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="450">
               <div class="item__heading">
                 <h3>StEmp-Tool Anhalt-Bitterfeld-Wittenberg</h3>
               </div>
@@ -257,7 +258,7 @@
                 <p>Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="150">
               <div class="item__heading">
                 <h3>StEmp-Tool Wärme - Mecklenburg</h3>
               </div>
@@ -270,7 +271,7 @@
                 <p>Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen), mit dem man Szenarien für kostengünstige und umweltfreundliche Wärmeversorgung im eigenen Viertel erstellen kann.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
                 <h3>NESP2</h3>
               </div>
@@ -288,7 +289,7 @@
       </section>
     </main>
     
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
       <div>
         <div class="footer__logos">
           <img src="assets/logos/WAM_logo.png" alt="WAM Logo">
@@ -319,6 +320,7 @@
     </footer>
 
     <script src="js/vanilla-lazyload.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
     <script src="js/project.js"></script>
   </body>
 </html>
