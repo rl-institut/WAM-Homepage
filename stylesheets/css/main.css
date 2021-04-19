@@ -1265,8 +1265,8 @@ a:visited {
 }
 @media screen and (min-width: 1024px) {
   .features {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 .features > div {
@@ -1332,8 +1332,8 @@ a:visited {
 }
 @media screen and (min-width: 1024px) {
   .footer {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 .footer > div {
@@ -1396,8 +1396,8 @@ a:visited {
 @media screen and (min-width: 1024px) {
   .hero {
     margin-top: calc(3rem + (1rem * 2));
-    padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 }
 .hero > div {
@@ -1625,8 +1625,8 @@ a:visited {
 }
 @media screen and (min-width: 1024px) {
   .showcase {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 .showcase > div {
@@ -1725,8 +1725,8 @@ a:visited {
 @media screen and (min-width: 1024px) {
   .skills,
 .contact {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 .skills > div,
