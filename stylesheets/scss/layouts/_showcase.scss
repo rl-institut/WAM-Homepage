@@ -35,7 +35,14 @@
 
     @media screen and (min-width:$medium-screen) {
       padding-bottom: 3rem;
-      width: calc(33.33% - #{$wam-item-padding-large});
+
+      // 2 items in a row
+      width: calc(50% - (#{$wam-item-padding-large-2-items} * 2));
+      padding-left: $wam-item-padding-large-2-items;
+      padding-right: $wam-item-padding-large-2-items;
+
+      // 3 items in a row
+      /* width: calc(33.33% - #{$wam-item-padding-large});
 
       &:nth-child(3n+1) {
         padding-right: $wam-item-padding-large;
@@ -48,7 +55,7 @@
 
       &:nth-child(3n+3) {
         padding-left: $wam-item-padding-large;
-      }
+      } */
     }
 
     &__heading h3 {

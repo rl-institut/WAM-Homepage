@@ -865,6 +865,7 @@ html {
  */
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /**
@@ -1696,17 +1697,23 @@ a:visited {
 @media screen and (min-width: 1024px) {
   .showcase .item {
     padding-bottom: 3rem;
-    width: calc(33.33% - 3rem);
-  }
-  .showcase .item:nth-child(3n+1) {
-    padding-right: 3rem;
-  }
-  .showcase .item:nth-child(3n+2) {
-    padding-left: calc(3rem / 2);
-    padding-right: calc(3rem / 2);
-  }
-  .showcase .item:nth-child(3n+3) {
-    padding-left: 3rem;
+    width: calc(50% - (5rem * 2));
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* width: calc(33.33% - 3rem);
+
+    &:nth-child(3n+1) {
+      padding-right: $wam-item-padding-large;
+    }
+
+    &:nth-child(3n+2) {
+      padding-left: calc(3rem / 2);
+      padding-right: calc(3rem / 2);
+    }
+
+    &:nth-child(3n+3) {
+      padding-left: $wam-item-padding-large;
+    } */
   }
 }
 .showcase .item__heading h3 {
