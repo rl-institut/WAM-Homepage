@@ -31,5 +31,25 @@
       height: $logo-height-large;
       line-height: $logo-height-large;
     }
+
+    ul {
+      margin: 0;
+      padding-inline-start: 0;
+      font-size: $font-size-small;
+
+      @media screen and (min-width:$small-screen) {
+        font-size: $font-size-normal;
+      }
+    }
+
+    ul li {
+      list-style: none;
+      display: inline-block;
+      padding-left: .5rem;
+    }
+
+    .active {
+      color: $wam-primary-color-2;
+    }
   }
 }
