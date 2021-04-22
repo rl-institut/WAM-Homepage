@@ -19,7 +19,6 @@ const config = {
 
 let observer = new IntersectionObserver(function (entries, self) {
   entries.forEach(entry => {
-    console.log(entry);
     if (entry.isIntersecting) {
       intersectionHandler(entry); 
     }
