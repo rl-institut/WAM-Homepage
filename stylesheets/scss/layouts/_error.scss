@@ -1,0 +1,35 @@
+.error {
+	margin-top: calc(#{$logo-height-small} + (#{$top-nav-padding-xsmall} * 2));
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+	@include section-padding-top-bottom;
+
+  @media screen and (min-width:$medium-screen) {
+    margin-top: calc(#{$logo-height-large} + (#{$top-nav-padding-large-height} * 2));
+    padding-bottom: 4rem;
+  }
+
+  &> div {
+    @include section-width;
+  }
+
+	&__img {
+		text-align: center;
+		img {
+			height: 13rem;
+
+			@media screen and (min-width:$medium-screen) {
+				height: 20rem;
+			}
+		}
+	}
+
+	&__btn {
+		padding-top: 2rem;
+		text-align: center;
+
+		@media screen and (min-width:$medium-screen) {
+			padding-top: 3rem;
+		}
+	}
+}
