@@ -14,6 +14,15 @@
       @include flex-row;
       flex-wrap: wrap;
       justify-content: center;
+      padding-top: 2rem;
+    }
+
+    @media screen and (min-width:$medium-screen) {
+      padding-top: 3rem;
+    }
+
+    @media screen and (min-width:$large-screen) {
+      padding-top: 4rem;
     }
   }
 
@@ -37,12 +46,12 @@
       padding-bottom: 3rem;
 
       // 2 items in a row
-      width: calc(50% - (#{$wam-item-padding-large-2-items} * 2));
+      /* width: calc(50% - (#{$wam-item-padding-large-2-items} * 2));
       padding-left: $wam-item-padding-large-2-items;
-      padding-right: $wam-item-padding-large-2-items;
+      padding-right: $wam-item-padding-large-2-items; */
 
       // 3 items in a row
-      /* width: calc(33.33% - #{$wam-item-padding-large});
+      width: calc(33.33% - #{$wam-item-padding-large});
 
       &:nth-child(3n+1) {
         padding-right: $wam-item-padding-large;
@@ -55,15 +64,23 @@
 
       &:nth-child(3n+3) {
         padding-left: $wam-item-padding-large;
-      } */
+      }
     }
 
-    &__heading h3 {
-      text-align: center;
+    &__heading {
+      position: relative;
+      width: 100%;
+      height: 3.5rem;
 
-      @media screen and (min-width:$medium-screen) {
-        height: 3.5rem;
-        margin-bottom: 0.5rem;
+      h3 {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+  
+        @media screen and (min-width:$medium-screen) {
+          margin-bottom: 1rem;
+        }
       }
     }
 
