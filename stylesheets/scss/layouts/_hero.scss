@@ -16,6 +16,7 @@
     
     @media screen and (min-width:$medium-screen) {
       @include flex-row;
+      flex-wrap: wrap;
     }
   }
 
@@ -78,22 +79,24 @@
   }
 
   &__btn {
-    position: absolute;
-    bottom: 5rem;
     opacity: 1;
 
     @media screen and (max-width:$medium-screen - 1px) {
-      bottom: 3rem;
-      left: 50%;
-      @include translateX(-50%);
+      @include flex-row;
+      justify-content: center;
+    }
+
+    @media screen and (min-width:$medium-screen) {
+      position: relative;
+      bottom: 0;
     }
 
     @media screen and (min-width:$large-screen) {
-      bottom: 6rem;
+      bottom: 2rem;
     }
 
     @media screen and (min-width:$xlarge-screen) {
-      bottom: 9rem;
+      bottom: 4rem;
     }
   }
 }
