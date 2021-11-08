@@ -30,10 +30,13 @@
               <a href="#hero" data-ref="hero" class="active">Home</a>
             </li>
             <li>
-              <a href="#showcase" data-ref="showcase">Projekte</a>
+              <a href="#showcase" data-ref="showcase" data-translatable>Projekte // Projects</a>
             </li>
             <li>
-              <a href="#contact" data-ref="contact">Kontakt</a>
+              <a href="#contact" data-ref="contact" data-translatable>Kontakt // Contact</a>
+            </li>
+            <li>
+              <button id="language_btn" onclick="switchLanguage();">EN</button>
             </li>
           </ul>
         </div>
@@ -72,7 +75,7 @@
           <div class="skills__item">
             <div class="text" data-aos="fade-up" data-aos-delay="300">
               <h2>Das Energiesystem ist komplex</h2>
-              <p>Die Energiewende hat viele komplexe Aspekte, die alle im Zusammenhang stehen. Sie sind oft schwer an die Zielgruppe zu vermitteln. Mit Web Apps erreichen Sie Ihre Zielgruppe. Wir bauen sie für Sie.</p>
+              <p data-translatable>Die Energiewende hat viele komplexe Aspekte, die alle im Zusammenhang stehen. Sie sind oft schwer an die Zielgruppe zu vermitteln. Mit Web Apps erreichen Sie Ihre Zielgruppe. Wir bauen sie für Sie. // There are many complex aspects regarding energy transition, which have many dependencies. Often, those are difficult to explain. Web apps can help in this field. We build one for you.</p>
               <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" class="btn btn--cta">
                 Kontaktieren Sie uns
               </a>
@@ -345,5 +348,22 @@
     <script src="js/vanilla-lazyload.js"></script>
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="js/project.js"></script>
+    <script src="js/dom-i18n.min.js"></script>
+    <script>
+      const i18n = domI18n({
+        languages: ['de', 'en']
+      });
+
+      function switchLanguage() {
+        const language_btn = document.getElementById("language_btn");
+        if (language_btn.innerHTML == "EN") {
+          i18n.changeLanguage('en');
+          language_btn.innerHTML = "DE";
+        } else {
+          i18n.changeLanguage('de');
+          language_btn.innerHTML = "EN";
+        }
+      }
+    </script>
   </body>
 </html>
