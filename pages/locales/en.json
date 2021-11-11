@@ -5,6 +5,16 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "locale": {
+    "de": {
+      "href": "../index.html",
+      "text": "DE"
+    },
+    "en": {
+      "href": "#",
+      "text": "EN"
+    }
+  },
   "hero": {
     "heading": "Visualizing the Energy Transition",
     "subheading": "...with web applications and maps for desktops and smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.",

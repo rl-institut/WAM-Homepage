@@ -5,6 +5,16 @@
     "projects": "Projekte",
     "contact": "Kontakt"
   },
+  "locale": {
+    "de": {
+      "href": "#",
+      "text": "DE"
+    },
+    "en": {
+      "href": "en/index.html",
+      "text": "EN"
+    }
+  },
   "hero": {
     "heading": "Die Energiewende veranschaulichen",
     "subheading": "...mit Webanwendungen und Karten für Desktops und Smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.",
