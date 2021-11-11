@@ -1,6 +1,76 @@
 {
   "lang": "en",
   "langPrefix": "../",
-  "projects": "Projects",
-  "contact": "Contact"
+  "nav": {
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "heading": "Visualizing the Energy Transition",
+    "subheading": "...with web applications and maps for desktops and smartphones: Web App Maps – WAMs.",
+    "cta": "To the WAMs"
+  },
+  "energysystem": {
+    "heading": "The energy system is complex",
+    "text": "The Energy Transition has many complicated aspects, all of which are interrelated. They are often difficult to communicate to target groups. With web apps, you can reach your target audience. We build them for you",
+    "btn": "Contact us"
+  },
+  "maps": {
+    "heading": "Maps give you complex data at a glance",
+    "text": "WAMs help to keep track of large amounts of data. For example, with interactive graphics, maps, or quizzes."
+  },
+  "targetgroup": {
+    "heading": "The web applications involve your target group",
+    "text": "WAMs help directly engage stakeholders on-site or from home. Reactive visualizations are understandable for anyone."
+  },
+  "projects": {
+    "agora": {
+      "heading": "Photovoltaics and Wind Area Calculator",
+      "text": "The web tool commissioned by the Agora Energiewende think tank shows the conditions under which areas in Germany can be used as a wind potential areas or for the installation of photovoltaic systems."
+    },
+    "emetrobus": {
+      "heading": "E-MetroBus",
+      "text": "Playful Webapp for the smartphone commissioned by BVG (Berlin public transport company). Quiz and Information about e-mobility in public transport."
+    },
+    "abw": {
+      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
+      "text": "Interactive stakeholder empowerment tool for citizen participation. It simulates future energy systems of the region with consumption and generation."
+    },
+    "heat": {
+      "heading": "StEmp Tool Heat – Mecklenburg",
+      "text": "Stakeholder empowerment tool for citizen participation. It  creates scenarios for cost-effective and environmentally friendly heat supply in people’s own neighborhood."
+    },
+    "nesp2": {
+      "heading": "NESP2",
+      "text": "Website with interactive maps to support electrification planning under the Nigerian Energy Support Programme II (NESP II)."
+    },
+    "tanzania": {
+      "heading": "Off-grid potential in Tanzania",
+      "text": "Online map for interactive analysis of off-grid electrification potential in Tanzania."
+    }
+  },
+  "contact": {
+    "heading": "We implement your project",
+    "text": "The WAMs are partly developed in research projects, and partly produced directly on behalf of energy transition actors.",
+    "cta": "Contact us"
+  },
+  "methods": {
+    "heading": "Scientific methods are comprehensible",
+    "text": "WAMs are based on real models and data from research. They help to make scientific processes transparent and comprehensible. They are built by energy transition experts, software developers, and open-science enthusiasts with a lot of know-how."
+  },
+  "data": {
+    "heading": "Scientists free data",
+    "text": "As scientists of the Reiner Lemoine Institute, we want to free the data from their tables. Our team of energy transition professionals, software developers, and open-source enthusiasts is convinced that the best way for people to understand the energy transition is for them to play with consumption and generation figures."
+  },
+  "features": {
+    "heading": "Conveying the energy transition",
+    "item1": "Visualization",
+    "item2": "Energy Topics",
+    "item3": "Gamification"
+  },
+  "footer": {
+    "contact": "Contact",
+    "imprint": "Imprint",
+    "privacy": "Data privacy"
+  }
 }
