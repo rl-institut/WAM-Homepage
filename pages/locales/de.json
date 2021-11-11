@@ -8,65 +8,88 @@
   "hero": {
     "heading": "Die Energiewende veranschaulichen",
     "subheading": "...mit Webanwendungen und Karten für Desktops und Smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.",
-    "cta": "Zu den WAMs"
+    "cta": "Zu den WAMs",
+    "alt": "Karte einer deutschen Region mit gefärbten Flächen in einer App"
   },
   "energysystem": {
     "heading": "Das Energiesystem ist komplex",
     "text": "Die Energiewende hat viele komplexe Aspekte, die alle im Zusammenhang stehen. Sie sind oft schwer an die Zielgruppe zu vermitteln. Mit Web Apps erreichen Sie Ihre Zielgruppe. Wir bauen sie für Sie.",
-    "btn": "Kontaktieren Sie uns"
+    "btn": "Kontaktieren Sie uns",
+    "alt": "Das Energiesystem wird einfacher mit einer Web App dargestellt"
   },
   "maps": {
     "heading": "Mit Karten werden komplexe Daten auf einen Blick verständlich",
-    "text": "Die WAMs helfen dabei, große Datenmengen zu überblicken. Zum Beispiel mit interaktiven Grafiken, Karten oder Quizspielen."
+    "text": "Die WAMs helfen dabei, große Datenmengen zu überblicken. Zum Beispiel mit interaktiven Grafiken, Karten oder Quizspielen.",
+    "alt": "Karte einer deutschen Region mit gefärbten Flächen in einer App"
   },
   "targetgroup": {
     "heading": "Die Webanwendungen involvieren Ihre Zielgruppe",
-    "text": "Die WAMs helfen dabei Beteiligte vor Ort oder von zu Hause direkt einzubinden. Reaktive Darstellungen sind für alle verständlich."
+    "text": "Die WAMs helfen dabei Beteiligte vor Ort oder von zu Hause direkt einzubinden. Reaktive Darstellungen sind für alle verständlich.",
+    "alt": "Illustration von Mobile Usern und drei verschiedenen Geräten"
   },
   "projects": {
+    "header": "Beispiel-Projekte",
     "agora": {
       "heading": "Photovoltaik- und Windflächenrechner",
-      "text": "Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt."
+      "text": "Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt.",
+      "alt": "Bild des Photovoltaik- und Windflächenrechners"
     },
     "emetrobus": {
       "heading": "E-MetroBus",
-      "text": "Spielerische Webapp für's Smartphone im Auftrag der BVG. Quiz und Infos rund um E-Mobilität im ÖPNV."
+      "text": "Spielerische Webapp für's Smartphone im Auftrag der BVG. Quiz und Infos rund um E-Mobilität im ÖPNV.",
+      "alt": "Bild der E-MetroBus App"
     },
     "abw": {
       "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
-      "text": "Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung."
+      "text": "Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung.",
+      "alt": "Bild des StEmp-Tools Anhalt-Bitterfeld-Wittenberg"
     },
     "heat": {
       "heading": "StEmp Tool Wärme – Mecklenburg",
-      "text": "Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen), mit dem man Szenarien für kostengünstige und umweltfreundliche Wärmeversorgung im eigenen Viertel erstellen kann."
+      "text": "Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen), mit dem man Szenarien für kostengünstige und umweltfreundliche Wärmeversorgung im eigenen Viertel erstellen kann.",
+      "alt": "Bild des StEmp-Tools Wärme – Mecklenburg"
     },
     "nesp2": {
       "heading": "NESP2",
-      "text": "Webseite mit interaktiven Karten zur Unterstützung der Elektrifizierungsplanung im Rahmen des Nigerian Energy Support Programme II (NESP II)."
+      "text": "Webseite mit interaktiven Karten zur Unterstützung der Elektrifizierungsplanung im Rahmen des Nigerian Energy Support Programme II (NESP II).",
+      "alt": "Bild der NESP2 Webkarte"
     },
     "tanzania": {
       "heading": "Off-grid-Potentiale in Tansania",
-      "text": "Onlinekarte zur interaktiven Analyse der Off-grid Elektrifizierungspotentiale in Tansania."
+      "text": "Onlinekarte zur interaktiven Analyse der Off-grid Elektrifizierungspotentiale in Tansania.",
+      "alt": "Bild der Off-grid-Potentiale in Tansania"
     }
   },
   "contact": {
     "heading": "Wir setzen Ihr Projekt um",
     "text": "Die WAMs entstehen zum Teil in Forschungsprojekten, zum Teil fertigen wir sie direkt im Auftrag von Energiewendeakteuren an.",
-    "cta": "Kontaktieren Sie uns"
+    "cta": "Kontaktieren Sie uns",
+    "alt": "Mobiles Gerät mit UI und Energiekomponenten"
   },
   "methods": {
     "heading": "Wissenschaftliche Methoden sind nachvollziehbar",
-    "text": "Die WAMs basieren auf realen Modellen und Daten aus der Forschung. Sie helfen wissenschaftliche Prozesse transparent und nachvollziehbar zu machen. Sie werden gebaut von Energiewende-Expert*innen, Software-Entwickler*innen und Open-Science-Enthusiast*innen mit viel Know-How."
+    "text": "Die WAMs basieren auf realen Modellen und Daten aus der Forschung. Sie helfen wissenschaftliche Prozesse transparent und nachvollziehbar zu machen. Sie werden gebaut von Energiewende-Expert*innen, Software-Entwickler*innen und Open-Science-Enthusiast*innen mit viel Know-How.",
+    "alt": "Illustration von verschiedenen Charts und Reglern auf Desktop und Mobile"
   },
   "data": {
     "heading": "Wissenschaftler*innen befreien Daten",
-    "text": "Als Wissenschaftler*innen des Reiner Lemoine Instituts wollen wir die Daten aus ihren Tabellen befreien. Unser Team aus Energiewendeprofis, Softwareentwickler*innen und Open-Source-Begeisterten ist überzeugt davon, dass die Energiewende am besten verstanden werden kann, wenn man selbst mit Verbrauchs- und Erzeugungszahlen spielen darf."
+    "text": "Als Wissenschaftler*innen des Reiner Lemoine Instituts wollen wir die Daten aus ihren Tabellen befreien. Unser Team aus Energiewendeprofis, Softwareentwickler*innen und Open-Source-Begeisterten ist überzeugt davon, dass die Energiewende am besten verstanden werden kann, wenn man selbst mit Verbrauchs- und Erzeugungszahlen spielen darf.",
+    "alt": "Verschiedene Charts über die Energieleistung auf einem Desktop Bildschirm"
   },
   "features": {
     "heading": "Energiewende vermitteln",
-    "item1": "Visualisierung",
-    "item2": "Energiethemen",
-    "item3": "Gamification"
+    "item1": {
+      "heading": "Visualisierung",
+      "alt": "Dashboard mit Chart"
+    },
+    "item2": {
+      "heading": "Energiethemen",
+      "alt": "Glühbirne mit Pflanze drin"
+    },
+    "item3": {
+      "heading": "Gamification",
+      "alt": "Joystick"
+    }
   },
   "footer": {
     "contact": "Kontakt",

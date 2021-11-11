@@ -56,8 +56,8 @@
             srcset-t="
               {{langPrefix}}assets/illustrations/WAM_Illustrations_hero-website-600.png 600w,
               {{langPrefix}}assets/illustrations/WAM_Illustrations_hero-website.svg
-            " 
-            alt="Karte einer deutschen Region mit gefärbten Flächen in einer App"
+            "
+            alt-t="{{hero.alt}}"
             />
           </div>
           <div class="hero__btn a-hero-btn" style="opacity: 0;">
@@ -88,7 +88,7 @@
                 {{langPrefix}}assets/illustrations/Energy_system.png 1200w
               " 
               class="lazy"
-              alt="Das Energiesystem wird einfacher mit einer Web App dargestellt"
+              alt-t="{{energysystem.alt}}"
               />
             </div>
           </div>
@@ -102,7 +102,7 @@
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_map-website-600.png 600w,
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_map-website.png
               " 
-              alt="Karte einer deutschen Region mit gefärbten Flächen in einer App"
+              alt-t="{{maps.alt}}"
               class="lazy"
               />
             </div>
@@ -125,7 +125,7 @@
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_target_group-website-600.svg 600w,
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_target_group-website.svg
               " 
-              alt="Illustration von Mobile Usern und drei verschiedenen Geräten"
+              alt-t="{{targetgroup.alt}}"
               class="lazy"
               />
             </div>
@@ -135,7 +135,7 @@
 
       <section class="showcase section" id="showcase">
         <div>
-          <h2 data-aos="fade-up" data-t>Beispiel-Projekte</h2>
+          <h2 data-aos="fade-up" data-t>projects.header</h2>
           <div class="showcase__items">
             <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
@@ -143,7 +143,10 @@
               </div>
               <div class="item__img">
                 <a href="https://wfr.agora-energiewende.de/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_agora.png" alt="Bild des Photovoltaik- und Windflächenrechners">
+                  <img src="assets/illustrations/WAMs_agora.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.agora.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -156,7 +159,10 @@
               </div>
               <div class="item__img">
                 <a href="https://nigeriase4all.gov.ng/map" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_nesp.png" alt="Bild des NESP Tools">
+                  <img src="assets/illustrations/WAMs_nesp.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.nesp2.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -169,7 +175,10 @@
               </div>
               <div class="item__img">
                 <a href="https://wam.rl-institut.de/stemp_abw/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_abw.png" alt="Bild des StEmp-Tools Anhalt-Bitterfeld-Wittenberg">
+                  <img src="assets/illustrations/WAMs_abw.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.abw.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -182,7 +191,10 @@
               </div>
               <div class="item__img">
                 <a href="https://wam.rl-institut.de/stemp/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_waerme.png" alt="Bild des StEmp-Tools Wärme - Mecklenburg">
+                  <img src="assets/illustrations/WAMs_waerme.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.heat.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -195,7 +207,10 @@
               </div>
               <div class="item__img">
                 <a href="https://e-metrobus.berlin/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_emetrobus.png" alt="Bild des E-MetroBus Tools">
+                  <img src="assets/illustrations/WAMs_emetrobus.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.emetrobus.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -208,7 +223,10 @@
               </div>
               <div class="item__img">
                 <a href="https://tzmapping.github.io/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_tanzania.png" alt="Karte des Off-grid-Potentiale in Tansania Projekts">
+                  <img src="assets/illustrations/WAMs_tanzania.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.tanzania.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
@@ -234,7 +252,7 @@
               src="assets/illustrations/WAM_Illustrations_wam_contact-lazy.png"
               data-attr-t data-attr-t-interpolate
               data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_wam_contact-website.svg"
-              alt="Mobiles Gerät mit UI und Energiekomponenten"
+              alt-t="{{contact.alt}}"
               class="lazy"
               >
             </div>
@@ -254,7 +272,7 @@
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_methods-website-600.png 600w,
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_methods-website.svg
               " 
-              alt="Illustration von einer verschiedenen Charts und Reglern auf Desktop und Mobile"
+              alt-t="{{methods.alt}}"
               class="lazy"
               />
             </div>
@@ -277,7 +295,7 @@
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_charts-website-600.svg 600w,
                 {{langPrefix}}assets/illustrations/WAM_Illustrations_charts-website.svg
               " 
-              alt="Verschiedene Charts über die Energieleistung auf einem Desktop Bildschirm"
+              alt-t="{{data.alt}}"
               class="lazy"
               />
             </div>
@@ -291,26 +309,35 @@
           <div class="features__items">
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_visualization.svg" alt="Dashboard mit Chart">
+                <img src="assets/icons/i_visualization.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item1.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3 data-t>features.item1</h3>
+                <h3 data-t>features.item1.heading</h3>
               </div>
             </div>
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_green_energy.svg" alt="Glühbirne mit Pflanze drin">
+                <img src="assets/icons/i_green_energy.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item2.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3 data-t>features.item2</h3>
+                <h3 data-t>features.item2.heading</h3>
               </div>
             </div>
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_gamification.svg" alt="Joystick">
+                <img src="assets/icons/i_gamification.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item3.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3 data-t>features.item3</h3>
+                <h3 data-t>features.item3.heading</h3>
               </div>
             </div>
           </div>
@@ -329,7 +356,7 @@
         <div class="footer__links">
           <ul>
             <li>
-              <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" data-t>Contact</a>
+              <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" data-t>footer.contact</a>
             </li>
             <li>
               <a href="https://reiner-lemoine-institut.de/" target="_blank" rel="noopener noreferrer">Reiner Lemoine Institut</a>
