@@ -15,6 +15,7 @@
       "text": "EN"
     }
   },
+  "contact_link": "https://reiner-lemoine-institut.de/en/research-fields/participation-and-knowledge-sharing/",
   "hero": {
     "heading": "Visualizing the Energy Transition",
     "subheading": "...with web applications and maps for desktops and smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.",
@@ -23,7 +24,7 @@
   },
   "energysystem": {
     "heading": "The energy system is complex",
-    "text": "The Energy Transition has many complicated aspects, all of which are interrelated. They are often difficult to communicate to target groups. With web apps, you can reach your target audience. We build them for you",
+    "text": "The Energy Transition has many complicated aspects, all of which are interrelated. They are often difficult to communicate to target groups. With web apps, you can reach your target audience. We build them for you.",
     "btn": "Contact us",
     "alt": "The energy system is presented more easily with a web app"
   },
