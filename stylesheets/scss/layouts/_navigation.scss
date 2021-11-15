@@ -45,11 +45,19 @@
     ul li {
       list-style: none;
       display: inline-block;
-      padding-left: .5rem;
+      padding-left: .75rem;
     }
 
     .active {
       color: $wam-primary-color-2;
+    }
+  }
+
+  &__locale {
+    margin-left: .5rem;
+
+    span {
+      padding-left: .5rem;
     }
   }
 }

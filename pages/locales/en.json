@@ -1,0 +1,109 @@
+{
+  "lang": "en",
+  "langPrefix": "../",
+  "nav": {
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "locale": {
+    "de": {
+      "href": "../index.html",
+      "text": "DE"
+    },
+    "en": {
+      "href": "#",
+      "text": "EN"
+    }
+  },
+  "hero": {
+    "heading": "Visualizing the Energy Transition",
+    "subheading": "...with web applications and maps for desktops and smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.",
+    "cta": "To the WAMs",
+    "alt": "Map of a German region with colored areas"
+  },
+  "energysystem": {
+    "heading": "The energy system is complex",
+    "text": "The Energy Transition has many complicated aspects, all of which are interrelated. They are often difficult to communicate to target groups. With web apps, you can reach your target audience. We build them for you",
+    "btn": "Contact us",
+    "alt": "The energy system is presented more easily with a web app"
+  },
+  "maps": {
+    "heading": "Maps give you complex data at a glance",
+    "text": "WAMs help to keep track of large amounts of data. For example, with interactive graphics, maps, or quizzes.",
+    "alt": "Map of a German region with colored areas"
+  },
+  "targetgroup": {
+    "heading": "The web applications involve your target group",
+    "text": "WAMs help directly engage stakeholders on-site or from home. Reactive visualizations are understandable for anyone.",
+    "alt": "Illustration of mobile users and three different devices"
+  },
+  "projects": {
+    "header": "Example Projects",
+    "agora": {
+      "heading": "Photovoltaics and Wind Area Calculator",
+      "text": "The web tool commissioned by the Agora Energiewende think tank shows the conditions under which areas in Germany can be used as wind potential areas or for the installation of photovoltaic systems.",
+      "alt": "Image of the Photovoltaics and Wind Area Calculator"
+    },
+    "emetrobus": {
+      "heading": "E-MetroBus",
+      "text": "Playful Webapp for the smartphone commissioned by BVG (Berlin public transport company). Quiz and Information about e-mobility in public transport.",
+      "alt": "Image of the E-MetroBus web app"
+    },
+    "abw": {
+      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
+      "text": "Interactive stakeholder empowerment tool for citizen participation. It simulates future energy systems of the region with consumption and generation.",
+      "alt": "Image of the StEmp-Tool Anhalt-Bitterfeld-Wittenberg"
+    },
+    "heat": {
+      "heading": "StEmp Tool Heat – Mecklenburg",
+      "text": "Stakeholder empowerment tool for citizen participation. It  creates scenarios for cost-effective and environmentally friendly heat supply in people’s own neighborhood.",
+      "alt": "Image of the StEmp Tool Heat – Mecklenburg"
+    },
+    "nesp2": {
+      "heading": "NESP2",
+      "text": "Website with interactive maps to support electrification planning under the Nigerian Energy Support Programme II (NESP II).",
+      "alt": "Image of the NESP2 web map"
+    },
+    "tanzania": {
+      "heading": "Off-grid potential in Tanzania",
+      "text": "Online map for interactive analysis of off-grid electrification potential in Tanzania.",
+      "alt": "Image of the Off-grid potential in Tanzania"
+    }
+  },
+  "contact": {
+    "heading": "We implement your project",
+    "text": "The WAMs are partly developed in research projects, and partly produced directly on behalf of energy transition actors.",
+    "cta": "Contact us",
+    "alt": "Mobile device with UI and energy components"
+  },
+  "methods": {
+    "heading": "Scientific methods are comprehensible",
+    "text": "WAMs are based on real models and data from research. They help to make scientific processes transparent and comprehensible. They are built by energy transition experts, software developers, and open-science enthusiasts with a lot of know-how.",
+    "alt": "Illustration of different charts and sliders on desktop and mobile"
+  },
+  "data": {
+    "heading": "Scientists free data",
+    "text": "As scientists of the Reiner Lemoine Institute, we want to free the data from their tables. Our team of energy transition professionals, software developers, and open-source enthusiasts is convinced that the best way for people to understand the energy transition is for them to play with consumption and generation figures.",
+    "alt": "Various charts of energy performance on a desktop screen"
+  },
+  "features": {
+    "heading": "Conveying the energy transition",
+    "item1": {
+      "heading": "Visualization",
+      "alt": "Dashboard with Chart"
+    },
+    "item2": {
+      "heading": "Energy Topics",
+      "alt": "Lightbulb with plant in it"
+    },
+    "item3": {
+      "heading": "Gamification",
+      "alt": "Joystick"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "imprint": "Imprint",
+    "privacy": "Data privacy"
+  }
+}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de">
+<html data-attr-t lang-t="lang">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,17 +30,23 @@
               <a href="#hero" data-ref="hero" class="active">Home</a>
             </li>
             <li>
-              <a href="#showcase" data-ref="showcase">Projekte</a>
+              <a href="#showcase" data-ref="showcase" data-t>nav.projects</a>
             </li>
             <li>
-              <a href="#contact" data-ref="contact">Kontakt</a>
+              <a href="#contact" data-ref="contact" data-t>nav.contact</a>
             </li>
             <li class="nav__locale">
-              <a href="#">
-              <span>DE</span>
+              <a 
+              data-attr-t data-attr-t-interpolate
+              href-t="{{locale.de.href}}" 
+              >
+              <span data-t>locale.de.text</span>
               </a>
-              <a href="en/index.html">
-              <span>EN</span>
+              <a 
+              data-attr-t data-attr-t-interpolate
+              href-t="{{locale.en.href}}" 
+              >
+              <span data-t>locale.en.text</span>
               </a>
             </li>
           </ul>
@@ -53,19 +59,24 @@
         <div>
           <div class="hero__heading" data-aos="fade-up mobile-animation">
             <h1>
-              <span class="main-heading">Die Energiewende veranschaulichen</span>
-              <span class="sub-heading" allowhtml>...mit Webanwendungen und Karten für Desktops und Smartphones: <br><span style='font-weight:700'>W</span>eb <span style='font-weight:700'>A</span>pp <span style='font-weight:700'>M</span>aps – <span style='font-weight:700'>WAM</span>s.</span>
+              <span class="main-heading" data-t>hero.heading</span>
+              <span class="sub-heading" data-t allowHtml>hero.subheading</span>
             </h1>
           </div>
           <div class="hero__img" data-aos="fade-left mobile-animation" data-aos-delay="300">
-            <img src="assets/illustrations/WAM_Illustrations_hero-website.svg" srcset="
-              assets/illustrations/WAM_Illustrations_hero-website-600.png 600w,
-              assets/illustrations/WAM_Illustrations_hero-website.svg
-            " alt="Karte einer deutschen Region mit gefärbten Flächen in einer App">
+            <img 
+            src-t="assets/illustrations/WAM_Illustrations_hero-website.svg"
+            data-attr-t data-attr-t-interpolate
+            srcset-t="
+              {{langPrefix}}assets/illustrations/WAM_Illustrations_hero-website-600.png 600w,
+              {{langPrefix}}assets/illustrations/WAM_Illustrations_hero-website.svg
+            "
+            alt-t="{{hero.alt}}"
+            />
           </div>
           <div class="hero__btn a-hero-btn" style="opacity: 0;">
             <a href="#showcase" class="btn btn--hollow">
-              <span>Zu den WAMs</span>
+              <span data-t>hero.cta</span>
             </a>
           </div>
         </div>
@@ -75,41 +86,62 @@
         <div>
           <div class="skills__item">
             <div class="text" data-aos="fade-up" data-aos-delay="300">
-              <h2>Das Energiesystem ist komplex</h2>
-              <p>Die Energiewende hat viele komplexe Aspekte, die alle im Zusammenhang stehen. Sie sind oft schwer an die Zielgruppe zu vermitteln. Mit Web Apps erreichen Sie Ihre Zielgruppe. Wir bauen sie für Sie.</p>
+              <h2 data-t>energysystem.heading</h2>
+              <p data-t>energysystem.text</p>
               <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" class="btn btn--cta">
-                <span>Kontaktieren Sie uns</span>
+                <span data-t>energysystem.btn</span>
               </a>
             </div>
             <div class="img" data-aos="fade-left" data-aos-delay="600">
-              <img src="assets/illustrations/Energy_system-lazy.png" class="lazy" data-src="assets/illustrations/Energy_system.png" data-srcset="
-                assets/illustrations/Energy_system-600.svg 600w,
-                assets/illustrations/Energy_system.png 1200w
-              " alt="Das Energiesystem wird einfacher mit einer Web App dargestellt">
+              <img 
+              src="assets/illustrations/Energy_system-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/Energy_system.png"
+              data-srcset-t="
+                {{langPrefix}}assets/illustrations/Energy_system-600.svg 600w,
+                {{langPrefix}}assets/illustrations/Energy_system.png 1200w
+              " 
+              class="lazy"
+              alt-t="{{energysystem.alt}}"
+              />
             </div>
           </div>
           <div class="skills__item skills__item--reversed" data-aos="fade-up">
             <div class="img" data-aos="fade-right" data-aos-delay="300">
-              <img src="assets/illustrations/WAM_Illustrations_map-lazy.png" class="lazy" data-src="assets/illustrations/WAM_Illustrations_map-website.png" data-srcset="
-                assets/illustrations/WAM_Illustrations_map-website-600.png 600w,
-                assets/illustrations/WAM_Illustrations_map-website.png
-              " alt="Karte einer deutschen Region mit gefärbten Flächen in einer App">
+              <img 
+              src="assets/illustrations/WAM_Illustrations_map-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_map-website.png"
+              data-srcset-t="
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_map-website-600.png 600w,
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_map-website.png
+              " 
+              alt-t="{{maps.alt}}"
+              class="lazy"
+              />
             </div>
             <div class="text" data-aos="fade-up">
-              <h2>Mit Karten werden komplexe Daten auf einen Blick verständlich</h2>
-              <p>Die WAMs helfen dabei, große Datenmengen zu überblicken. Zum Beispiel mit interaktiven Grafiken, Karten oder Quizspielen.</p>
+              <h2 data-t>maps.heading</h2>
+              <p data-t>maps.text</p>
             </div>
           </div>
           <div class="skills__item">
             <div class="text" data-aos="fade-up">
-              <h2>Die Webanwendungen involvieren Ihre Zielgruppe</h2>
-              <p>Die WAMs helfen dabei Beteiligte vor Ort oder von zu Hause direkt einzubinden. Reaktive Darstellungen sind für alle verständlich.</p>
+              <h2 data-t>targetgroup.heading</h2>
+              <p data-t>targetgroup.text</p>
             </div>
             <div class="img" data-aos="fade-left" data-aos-delay="300">
-              <img src="assets/illustrations/WAM_Illustrations_target_group-lazy.png" class="lazy" data-src="assets/illustrations/WAM_Illustrations_target_group-website.svg" data-srcset="
-                assets/illustrations/WAM_Illustrations_target_group-website-600.svg 600w,
-                assets/illustrations/WAM_Illustrations_target_group-website.svg
-              " alt="Illustration von Mobile Usern und drei verschiedenen Geräten">
+              <img 
+              src="assets/illustrations/WAM_Illustrations_target_group-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_target_group-website.svg"
+              data-srcset-t="
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_target_group-website-600.svg 600w,
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_target_group-website.svg
+              " 
+              alt-t="{{targetgroup.alt}}"
+              class="lazy"
+              />
             </div>
           </div>
         </div>
@@ -117,84 +149,102 @@
 
       <section class="showcase section" id="showcase">
         <div>
-          <h2 data-aos="fade-up">Beispiel-Projekte</h2>
+          <h2 data-aos="fade-up" data-t>projects.header</h2>
           <div class="showcase__items">
             <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
-                <h3>Photovoltaik- und Windflächenrechner</h3>
+                <h3 data-t>projects.agora.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://wfr.agora-energiewende.de/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_agora.png" alt="Bild des Photovoltaik- und Windflächenrechners">
+                  <img src="assets/illustrations/WAMs_agora.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.agora.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt.</p>
+                <p data-t>projects.agora.text</p>
               </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
-                <h3>NESP2</h3>
+                <h3 data-t>projects.nesp2.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://nigeriase4all.gov.ng/map" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_nesp.png" alt="Bild der NESP2 Webkarte">
+                  <img src="assets/illustrations/WAMs_nesp.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.nesp2.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Webseite mit interaktiven Karten zur Unterstützung der Elektrifizierungsplanung im Rahmen des Nigerian Energy Support Programme II (NESP II).</p>
+                <p data-t>projects.nesp2.text</p>
               </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="450">
               <div class="item__heading">
-                <h3>StEmp-Tool Anhalt-Bitterfeld-Wittenberg</h3>
+                <h3 data-t>projects.abw.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://wam.rl-institut.de/stemp_abw/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_abw.png" alt="Bild des StEmp-Tools Anhalt-Bitterfeld-Wittenberg">
+                  <img src="assets/illustrations/WAMs_abw.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.abw.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung.</p>
+                <p data-t>projects.abw.text</p>
               </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="150">
               <div class="item__heading">
-                <h3>StEmp Tool Wärme – Mecklenburg</h3>
+                <h3 data-t>projects.heat.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://wam.rl-institut.de/stemp/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_waerme.png" alt="Bild des StEmp-Tools Wärme – Mecklenburg">
+                  <img src="assets/illustrations/WAMs_waerme.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.heat.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen), mit dem man Szenarien für kostengünstige und umweltfreundliche Wärmeversorgung im eigenen Viertel erstellen kann.</p>
+                <p data-t>projects.heat.text</p>
               </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="300">
               <div class="item__heading">
-                <h3>E-MetroBus</h3>
+                <h3 data-t>projects.emetrobus.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://e-metrobus.berlin/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_emetrobus.png" alt="Bild der E-MetroBus App">
+                  <img src="assets/illustrations/WAMs_emetrobus.png" 
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.emetrobus.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Spielerische Webapp für's Smartphone im Auftrag der BVG. Quiz und Infos rund um E-Mobilität im ÖPNV.</p>
+                <p data-t>projects.emetrobus.text</p>
               </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="450">
               <div class="item__heading">
-                <h3>Off-grid-Potentiale in Tansania</h3>
+                <h3 data-t>projects.tanzania.heading</h3>
               </div>
               <div class="item__img">
                 <a href="https://tzmapping.github.io/" target="_blank" rel="noopener noreferrer">
-                  <img src="assets/illustrations/WAMs_tanzania.png" alt="Bild der Off-grid-Potentiale in Tansania">
+                  <img src="assets/illustrations/WAMs_tanzania.png"
+                  data-attr-t data-attr-t-interpolate 
+                  alt-t="{{projects.tanzania.alt}}"
+                  >
                 </a>
               </div>
               <div class="item__text">
-                <p>Onlinekarte zur interaktiven Analyse der Off-grid Elektrifizierungspotentiale in Tansania.</p>
+                <p data-t>projects.tanzania.text</p>
               </div>
             </div>
           </div>
@@ -205,14 +255,20 @@
         <div>
           <div class="contact__item">
             <div class="text" data-aos="fade-up">
-              <h2>Wir setzen Ihr Projekt um</h2>
-              <p>Die WAMs entstehen zum Teil in Forschungsprojekten, zum Teil fertigen wir sie direkt im Auftrag von Energiewendeakteuren an.</p>
+              <h2 data-t>contact.heading</h2>
+              <p data-t>contact.text</p>
               <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" class="btn btn--cta btn--reversed">
-                <span>Kontaktieren Sie uns</span>
+                <span data-t>contact.cta</span>
               </a>
             </div>
             <div class="img" data-aos="fade-left" data-aos-delay="300">
-              <img src="assets/illustrations/WAM_Illustrations_wam_contact-lazy.png" class="lazy" data-src="assets/illustrations/WAM_Illustrations_wam_contact-website.svg" alt="Mobiles Gerät mit UI und Energiekomponenten">
+              <img 
+              src="assets/illustrations/WAM_Illustrations_wam_contact-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_wam_contact-website.svg"
+              alt-t="{{contact.alt}}"
+              class="lazy"
+              >
             </div>
           </div>
         </div>
@@ -222,26 +278,40 @@
         <div>
           <div class="skills__item skills__item--reversed">
             <div class="img" data-aos="fade-right" data-aos-delay="300">
-              <img src="assets/illustrations/WAM_Illustrations_methods-lazy.png" class="lazy" data-src="assets/illustrations/WAM_Illustrations_methods-website.svg" data-srcset="
-                assets/illustrations/WAM_Illustrations_methods-website-600.png 600w,
-                assets/illustrations/WAM_Illustrations_methods-website.svg
-              " alt="Illustration von verschiedenen Charts und Reglern auf Desktop und Mobile">
+              <img 
+              src="assets/illustrations/WAM_Illustrations_methods-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_methods-website.svg"
+              data-srcset-t="
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_methods-website-600.png 600w,
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_methods-website.svg
+              " 
+              alt-t="{{methods.alt}}"
+              class="lazy"
+              />
             </div>
             <div class="text" data-aos="fade-up">
-              <h2>Wissenschaftliche Methoden sind nachvollziehbar</h2>
-              <p>Die WAMs basieren auf realen Modellen und Daten aus der Forschung. Sie helfen wissenschaftliche Prozesse transparent und nachvollziehbar zu machen. Sie werden gebaut von Energiewende-Expert*innen, Software-Entwickler*innen und Open-Science-Enthusiast*innen mit viel Know-How.</p>
+              <h2 data-t>methods.heading</h2>
+              <p data-t>methods.text</p>
             </div>
           </div>
           <div class="skills__item">
             <div class="text" data-aos="fade-up">
-              <h2>Wissenschaftler*innen befreien Daten</h2>
-              <p>Als Wissenschaftler*innen des Reiner Lemoine Instituts wollen wir die Daten aus ihren Tabellen befreien. Unser Team aus Energiewendeprofis, Softwareentwickler*innen und Open-Source-Begeisterten ist überzeugt davon, dass die Energiewende am besten verstanden werden kann, wenn man selbst mit Verbrauchs- und Erzeugungszahlen spielen darf.</p>
+              <h2 data-t>data.heading</h2>
+              <p data-t>data.text</p>
             </div>
             <div class="img" data-aos="fade-left" data-aos-delay="300">
-              <img src="assets/illustrations/WAM_Illustrations_charts-lazy.png" class="lazy" data-src="assets/illustrations/WAM_Illustrations_charts-website.svg" data-srcset="
-                assets/illustrations/WAM_Illustrations_charts-website-600.svg 600w,
-                assets/illustrations/WAM_Illustrations_charts-website.svg
-              " alt="Verschiedene Charts über die Energieleistung auf einem Desktop Bildschirm">
+              <img 
+              src="assets/illustrations/WAM_Illustrations_charts-lazy.png"
+              data-attr-t data-attr-t-interpolate
+              data-src-t="{{langPrefix}}assets/illustrations/WAM_Illustrations_charts-website.svg"
+              data-srcset-t="
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_charts-website-600.svg 600w,
+                {{langPrefix}}assets/illustrations/WAM_Illustrations_charts-website.svg
+              " 
+              alt-t="{{data.alt}}"
+              class="lazy"
+              />
             </div>
           </div>
         </div>
@@ -249,30 +319,39 @@
 
       <section class="features" data-aos="fade-up">
         <div>
-          <h2>Energiewende vermitteln</h2>
+          <h2 data-t>features.heading</h2>
           <div class="features__items">
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_visualization.svg" alt="Dashboard mit Chart">
+                <img src="assets/icons/i_visualization.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item1.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3>Visualisierung</h3>
+                <h3 data-t>features.item1.heading</h3>
               </div>
             </div>
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_green_energy.svg" alt="Glühbirne mit Pflanze drin">
+                <img src="assets/icons/i_green_energy.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item2.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3>Energiethemen</h3>
+                <h3 data-t>features.item2.heading</h3>
               </div>
             </div>
             <div class="item">
               <div class="item__icon">
-                <img src="assets/icons/i_gamification.svg" alt="Joystick">
+                <img src="assets/icons/i_gamification.svg"
+                data-attr-t data-attr-t-interpolate
+                alt-t="{{features.item3.alt}}"
+                >
               </div>
               <div class="item__heading">
-                <h3>Gamification</h3>
+                <h3 data-t>features.item3.heading</h3>
               </div>
             </div>
           </div>
@@ -291,16 +370,16 @@
         <div class="footer__links">
           <ul>
             <li>
-              <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer">Kontakt</a>
+              <a href="https://reiner-lemoine-institut.de/forschungsfelder/sp-partizipation-und-wissenskommunikation/" target="_blank" rel="noopener noreferrer" data-t>footer.contact</a>
             </li>
             <li>
               <a href="https://reiner-lemoine-institut.de/" target="_blank" rel="noopener noreferrer">Reiner Lemoine Institut</a>
             </li>
             <li>
-              <a href="impressum.html">Impressum</a>
+              <a href="impressum.html" data-t>footer.imprint</a>
             </li>
             <li>
-              <a href="datenschutz.html">Datenschutz</a>
+              <a href="datenschutz.html" data-t>footer.privacy</a>
             </li>
           </ul>
         </div>
