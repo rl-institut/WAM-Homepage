@@ -1,0 +1,68 @@
+.wam-list {
+  @include basic-layout-header;
+}
+
+.wam-table {
+  padding: 2rem 0 0;
+
+  li {
+    @include flex-row-space-between;
+    border-radius: $button-border-radius;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    background-color: $wam-primary-color-1;
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  &__row {
+    background-color: $white;
+    box-shadow: $box-shadow;
+  }
+
+  .col {
+    &.col--1 {
+      flex-basis: 30%;
+    }
+    
+    &.col--2 {
+      flex-basis: 50%;
+    }
+
+    &.col--3 {
+      flex-basis: 20%;
+    }
+  }
+  
+  @media all and (max-width: $medium-screen) {
+    &__header {
+      display: none!important;
+    }
+
+    .table-row{
+      background-color: $white;
+      box-shadow: $box-shadow;
+    }
+
+    li:not(.wam-table__header) {
+      display: block;
+    }
+
+    .col {
+      @include flex-row;
+      flex-basis: 100%;
+      padding: 0.5rem 0;
+
+      &:before {
+        content: attr(data-label);
+        font-weight: 300;
+        padding-right: 1rem;
+        flex-basis: 20%;
+        text-align: right;
+      }
+    }
+  }
+}

@@ -39,6 +39,25 @@
   }
 }
 
+@mixin basic-layout-header {
+  margin-top: calc(#{$logo-height-small} + (#{$top-nav-padding-xsmall} * 2));
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+
+  @media screen and (min-width:$medium-screen) {
+    margin-top: calc(#{$logo-height-large} + (#{$top-nav-padding-large-height} * 2));
+    padding-bottom: 4rem;
+  }
+
+  &> div {
+    @include section-width;
+  }
+
+  h1 {
+    font-size: $font-size-medium-2;
+  }
+}
+
 // Typography
 @mixin heading-size-normal {
   font-size: $font-size-normal;
