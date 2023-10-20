@@ -45,6 +45,11 @@
       "text": "Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt.",
       "alt": "Bild des Photovoltaik- und Windflächenrechners"
     },
+    "digiplan": {
+      "heading": "DigiPlan Anhalt",
+      "text": "DigiPlan Anhalt - die Weiterentwicklung des StEmp-Tools Anhalt-Bitterfeld-Wittenberg.<br>Kartentool für die regionale Transformation im Kontext von Energiesystem und Flächennutzung.",
+      "alt": "Bild des Digiplan-Logos"
+    },
     "emetrobus": {
       "heading": "E-MetroBus",
       "text": "Spielerische Webapp für's Smartphone im Auftrag der BVG. Quiz und Infos rund um E-Mobilität im ÖPNV.",

@@ -45,6 +45,11 @@
       "text": "The web tool commissioned by the German think tank Agora Energiewende shows which areas in Germany can be used as wind potential areas or for the installation of photovoltaic systems.",
       "alt": "Image of the Photovoltaics and Wind Area Calculator"
     },
+    "digiplan": {
+      "heading": "DigiPlan Anhalt",
+      "text": "DigiPlan Anhalt - the further development of the StEmp tool Anhalt-Bitterfeld-Wittenberg.<br>Map tool for regional transformation in the context of the energy system and land use.",
+      "alt": "Image of the Digiplan-Logos"
+    },
     "emetrobus": {
       "heading": "E-MetroBus",
       "text": "Playful Webapp for the smartphone commissioned by BVG (Berlin public transport company). Quiz and Information about e-mobility in public transport.",
