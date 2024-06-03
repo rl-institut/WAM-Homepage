@@ -68,19 +68,21 @@
     }
 
     &__heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
       position: relative;
       width: 100%;
-      height: 4.5rem;
+      height: 3.5rem;
+
+      @media screen and (min-width:$medium-screen) {
+        height: 4.5rem;
+        margin-bottom: 1rem;
+      }
 
       h3 {
         text-align: center;
-        position: absolute;
         width: 100%;
-        bottom: 0;
-  
-        @media screen and (min-width:$medium-screen) {
-          margin-bottom: 1rem;
-        }
       }
     }
 
