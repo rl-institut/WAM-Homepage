@@ -7,3 +7,10 @@ Build translated files via:
 ```
 static-i18n -l de -i de -i en -o . pages/ 
 ```
+
+## SCSS Compiler
+
+Compile into CSS:
+```
+npm run build-css
+```

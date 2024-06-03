@@ -1,0 +1,22 @@
+{
+  "name": "wam-homepage",
+  "version": "1.0.0",
+  "description": "## Translation",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "classlist-polyfill": "^1.2.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.77.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass stylesheets/scss/main.scss:stylesheets/scss/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
