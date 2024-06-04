@@ -40,40 +40,71 @@
   },
   "projects": {
     "header": "Example Projects",
+    "egon": {
+      "heading": "eGo^n",
+      "text": "Visualization of scenario data from the eGo^n project",
+      "aria": "Open the eGo^n web app in a new window",
+      "alt": "eGo^n logo"
+    },
+    "enershelf": {
+      "heading": "Enershelf",
+      "text": "Help locate the market potential for photovoltaic-based mini-grids in the health sector of Ghana with the aim of overcoming energy scarcity and reducing frequent blackouts",
+      "aria": "Open the Enershelf web app in a new window",
+      "alt": "Visualization of Ghana on a map"
+    },
+    "cpnigeria": {
+      "heading": "CP Nigeria",
+      "text": "Toolbox to empower non-electrified communities in Nigeria to create their own mini-grid implementation plans through a bottom-up approach",
+      "aria": "Open the CP Nigeria web app in a new window",
+      "alt": "CP Nigeria logo"
+    },
+    "peoplesun": {
+      "heading": "People Sun",
+      "text": "Open source tool to plan off-grid systems in Nigeria. It performs a spatial optimization of the distribution grid as well as designs the energy converters and storages. Developped within the PeopleSuN project",
+      "aria": "Open the People Sun web app in a new window",
+      "alt": "Illustration with different icons representing grid planning"
+    },
+    "openplan": {
+      "heading": "Open Plan",
+      "text": "A cross-sector, open-source tool for the optimized planning of energy cells",
+      "aria": "Open the Open Plan web app in a new window",
+      "alt": "Illustration of a hexagon showing what an energy cell is"
+    },
+    "rgi": {
+      "heading": "Renewables Grid Initiative",
+      "text": "Comparative analysis of spatial requirements for different decarbonisation scenarios",
+      "aria": "Open the Renewables Grid Initiative web app in a new window",
+      "alt": "Map of Europe"
+    },
+    "wwf": {
+      "heading": "WWF Energiewende-Dashboard",
+      "text": "Visualization of the climate crisis and energy transition in Germany",
+      "aria": "Open the WWF Energy Dashboard in a new window",
+      "alt": "2 examples of charts from the Energiewende-Dashboards on mobile devices"
+    },
     "agora": {
       "heading": "Photovoltaics and Wind Area Calculator",
       "text": "The web tool commissioned by the German think tank Agora Energiewende shows which areas in Germany can be used as wind potential areas or for the installation of photovoltaic systems.",
+      "aria": "Open the Photovoltaics and Wind Area Calculator in a new window",
       "alt": "Image of the Photovoltaics and Wind Area Calculator"
     },
     "digiplan": {
       "heading": "DigiPlan Anhalt",
       "text": "DigiPlan Anhalt - the further development of the StEmp tool Anhalt-Bitterfeld-Wittenberg.<br>Map tool for regional transformation in the context of the energy system and land use.",
+      "aria": "Open the DigiPlan Anhalt web app in a new window",
       "alt": "Image of the Digiplan-Logos"
-    },
-    "emetrobus": {
-      "heading": "E-MetroBus",
-      "text": "Playful Webapp for the smartphone commissioned by BVG (Berlin public transport company). Quiz and Information about e-mobility in public transport.",
-      "alt": "Image of the E-MetroBus web app"
     },
     "abw": {
       "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
       "text": "Interactive stakeholder empowerment tool for citizen participation. It simulates future energy systems of the region with consumption and generation.",
+      "aria": "Open stakeholder empowerment tool in a new window",
       "alt": "Image of the StEmp-Tool Anhalt-Bitterfeld-Wittenberg"
     },
     "heat": {
       "heading": "StEmp Tool Heat – Mecklenburg",
       "text": "Stakeholder empowerment tool for citizen participation. It  creates scenarios for cost-effective and environmentally friendly heat supply in people’s own neighborhood.",
+      "aria": "Open stakeholder empowerment tool in a new window",
       "alt": "Image of the StEmp Tool Heat – Mecklenburg"
-    },
-    "nesp2": {
-      "heading": "NESP2",
-      "text": "Website with interactive maps to support electrification planning under the Nigerian Energy Support Programme II (NESP II).",
-      "alt": "Image of the NESP2 web map"
-    },
-    "tanzania": {
-      "heading": "Off-grid potential in Tanzania",
-      "text": "Online map for interactive analysis of off-grid electrification potential in Tanzania.",
-      "alt": "Image of the Off-grid potential in Tanzania"
     }
   },
   "contact": {
