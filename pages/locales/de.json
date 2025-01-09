@@ -53,21 +53,21 @@
       "alt": "Visualisierung der Karte von Ghana"
     },
     "cpnigeria": {
-      "heading": "CP Nigeria",
+      "heading": "community-minigrid-tool",
       "text": "Toolbox zur Auslegung von Mini-Grid-Implementierungsplänen für Vertreter*innen nicht-elektrifizierter Gemeinschaften in Nigeria durch einen bottom-up Ansatz",
-      "aria": "Die CP Nigeria Web App in einem neuen Fenster öffnen",
-      "alt": "Logo vom CP Nigeria Projekt"
+      "aria": "Das community-minigrid-tool in einem neuen Fenster öffnen",
+      "alt": "Logo vom community-minigrid-tool Projekt"
     },
     "peoplesun": {
-      "heading": "People Sun",
+      "heading": "Offgridplanners",
       "text": "Open-Source-Tool für die Planung netzunabhängiger Systeme in Nigeria. Es führt eine räumliche Optimierung des Verteilungsnetzes durch und entwirft die Energiewandler und -speicher. Entwickelt im Rahmen des PeopleSuN-Projekts",
-      "aria": "Die People Sun Web App in einem neuen Fenster öffnen",
+      "aria": "Die Offgridplanners Web App in einem neuen Fenster öffnen",
       "alt": "Bild mit verschiedenen Icons, die die Netzplanung darstellen"
     },
     "openplan": {
-      "heading": "Open Plan",
+      "heading": "open-plan-tool",
       "text": "Ein sektorübergreifendes, offenes Tool für die optimierte Planung von Energiezellen",
-      "aria": "Die Open Plan Web App in einem neuen Fenster öffnen",
+      "aria": "Das open-plan-tool in einem neuen Fenster öffnen",
       "alt": "Bild von einem Hexagon, das eine Energiezelle darstellt"
     },
     "rgi": {

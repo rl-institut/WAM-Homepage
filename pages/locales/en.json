@@ -53,21 +53,21 @@
       "alt": "Visualization of Ghana on a map"
     },
     "cpnigeria": {
-      "heading": "CP Nigeria",
+      "heading": "community-minigrid-tool",
       "text": "Toolbox to empower non-electrified communities in Nigeria to create their own mini-grid implementation plans through a bottom-up approach",
-      "aria": "Open the CP Nigeria web app in a new window",
-      "alt": "CP Nigeria logo"
+      "aria": "Open the community-minigrid-tool in a new window",
+      "alt": "community-minigrid-tool logo"
     },
     "peoplesun": {
-      "heading": "People Sun",
+      "heading": "Offgridplanners",
       "text": "Open source tool to plan off-grid systems in Nigeria. It performs a spatial optimization of the distribution grid as well as designs the energy converters and storages. Developped within the PeopleSuN project",
-      "aria": "Open the People Sun web app in a new window",
+      "aria": "Open the Offgridplanners web app in a new window",
       "alt": "Illustration with different icons representing grid planning"
     },
     "openplan": {
-      "heading": "Open Plan",
+      "heading": "open-plan-tool",
       "text": "A cross-sector, open-source tool for the optimized planning of energy cells",
-      "aria": "Open the Open Plan web app in a new window",
+      "aria": "Open the open-plan-tool in a new window",
       "alt": "Illustration of a hexagon showing what an energy cell is"
     },
     "rgi": {
