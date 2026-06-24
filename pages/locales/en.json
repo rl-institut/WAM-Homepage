@@ -40,29 +40,11 @@
   },
   "projects": {
     "header": "Example Projects",
-    "egon": {
-      "heading": "eGo^n",
-      "text": "Visualization of scenario data from the eGo^n project",
-      "aria": "Open the eGo^n web app in a new window",
-      "alt": "eGo^n logo"
-    },
-    "enershelf": {
-      "heading": "Enershelf",
-      "text": "Help locate the market potential for photovoltaic-based mini-grids in the health sector of Ghana with the aim of overcoming energy scarcity and reducing frequent blackouts",
-      "aria": "Open the Enershelf web app in a new window",
-      "alt": "Visualization of Ghana on a map"
-    },
-    "cpnigeria": {
-      "heading": "community-minigrid-tool",
-      "text": "Toolbox to empower non-electrified communities in Nigeria to create their own mini-grid implementation plans through a bottom-up approach",
-      "aria": "Open the community-minigrid-tool in a new window",
-      "alt": "community-minigrid-tool logo"
-    },
-    "peoplesun": {
-      "heading": "Offgridplanners",
-      "text": "Open source tool to plan off-grid systems in Nigeria. It performs a spatial optimization of the distribution grid as well as designs the energy converters and storages. Developped within the PeopleSuN project",
-      "aria": "Open the Offgridplanners web app in a new window",
-      "alt": "Illustration with different icons representing grid planning"
+    "agora": {
+      "heading": "Photovoltaics and Wind Area Calculator",
+      "text": "The web tool commissioned by the German think tank Agora Energiewende shows which areas in Germany can be used as wind potential areas or for the installation of photovoltaic systems.",
+      "aria": "Open the Photovoltaics and Wind Area Calculator in a new window",
+      "alt": "Image of the Photovoltaics and Wind Area Calculator"
     },
     "openplan": {
       "heading": "open-plan-tool",
@@ -70,23 +52,41 @@
       "aria": "Open the open-plan-tool in a new window",
       "alt": "Illustration of a hexagon showing what an energy cell is"
     },
-    "rgi": {
-      "heading": "Renewables Grid Initiative",
-      "text": "Comparative analysis of spatial requirements for different decarbonisation scenarios",
-      "aria": "Open the Renewables Grid Initiative web app in a new window",
-      "alt": "Map of Europe"
+    "peoplesun": {
+      "heading": "Offgridplanners",
+      "text": "Open source tool to plan off-grid systems in Nigeria. It performs a spatial optimization of the distribution grid as well as designs the energy converters and storages. Developped within the PeopleSuN project",
+      "aria": "Open the Offgridplanners web app in a new window",
+      "alt": "Illustration with different icons representing grid planning"
     },
-    "wwf": {
-      "heading": "WWF Energiewende-Dashboard",
-      "text": "Visualization of the climate crisis and energy transition in Germany",
-      "aria": "Open the WWF Energy Dashboard in a new window",
-      "alt": "2 examples of charts from the Energiewende-Dashboards on mobile devices"
+    "empowerplan": {
+      "heading": "EmPowerPlan",
+      "text": "Planning tool for the regional energy transition for the Oderland-Spree region",
+      "aria": "Open the EmPowerPlan web app in a new window",
+      "alt": "EmPowerPlan project logo"
     },
-    "agora": {
-      "heading": "Photovoltaics and Wind Area Calculator",
-      "text": "The web tool commissioned by the German think tank Agora Energiewende shows which areas in Germany can be used as wind potential areas or for the installation of photovoltaic systems.",
-      "aria": "Open the Photovoltaics and Wind Area Calculator in a new window",
-      "alt": "Image of the Photovoltaics and Wind Area Calculator"
+    "stadtlandenergie": {
+      "heading": "Stadt Land Energie",
+      "text": "Intercommunal energy transition scenarios and value creation in the urban-rural nexus",
+      "aria": "Open the Stadt Land Energie web app in a new window",
+      "alt": "Stadt Land Energie project logo"
+    },
+    "cpnigeria": {
+      "heading": "community-minigrid-tool",
+      "text": "Toolbox to empower non-electrified communities in Nigeria to create their own mini-grid implementation plans through a bottom-up approach",
+      "aria": "Open the community-minigrid-tool in a new window",
+      "alt": "community-minigrid-tool logo"
+    },
+    "enershelf": {
+      "heading": "Enershelf",
+      "text": "Help locate the market potential for photovoltaic-based mini-grids in the health sector of Ghana with the aim of overcoming energy scarcity and reducing frequent blackouts",
+      "aria": "Open the Enershelf web app in a new window",
+      "alt": "Visualization of Ghana on a map"
+    },
+    "buildingdialogue": {
+      "heading": "Building Dialogue",
+      "text": "Digital guide for energy-efficient building renovation",
+      "aria": "Open the Building Dialogue web app in a new window",
+      "alt": "Building Dialogue project logo"
     },
     "digiplan": {
       "heading": "DigiPlan Anhalt",
@@ -94,17 +94,35 @@
       "aria": "Open the DigiPlan Anhalt web app in a new window",
       "alt": "Image of the Digiplan-Logos"
     },
-    "abw": {
-      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
-      "text": "Interactive stakeholder empowerment tool for citizen participation. It simulates future energy systems of the region with consumption and generation.",
-      "aria": "Open stakeholder empowerment tool in a new window",
-      "alt": "Image of the StEmp-Tool Anhalt-Bitterfeld-Wittenberg"
+    "wwf": {
+      "heading": "WWF Energiewende-Dashboard",
+      "text": "Visualization of the climate crisis and energy transition in Germany",
+      "aria": "Open the WWF Energy Dashboard in a new window",
+      "alt": "2 examples of charts from the Energiewende-Dashboards on mobile devices"
+    },
+    "egon": {
+      "heading": "eGo^n",
+      "text": "Visualization of scenario data from the eGo^n project",
+      "aria": "Open the eGo^n web app in a new window",
+      "alt": "eGo^n logo"
+    },
+    "rgi": {
+      "heading": "Renewables Grid Initiative",
+      "text": "Comparative analysis of spatial requirements for different decarbonisation scenarios",
+      "aria": "Open the Renewables Grid Initiative web app in a new window",
+      "alt": "Map of Europe"
     },
     "heat": {
       "heading": "StEmp Tool Heat – Mecklenburg",
       "text": "Stakeholder empowerment tool for citizen participation. It  creates scenarios for cost-effective and environmentally friendly heat supply in people’s own neighborhood.",
       "aria": "Open stakeholder empowerment tool in a new window",
       "alt": "Image of the StEmp Tool Heat – Mecklenburg"
+    },
+    "abw": {
+      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
+      "text": "Interactive stakeholder empowerment tool for citizen participation. It simulates future energy systems of the region with consumption and generation.",
+      "aria": "Open stakeholder empowerment tool in a new window",
+      "alt": "Image of the StEmp-Tool Anhalt-Bitterfeld-Wittenberg"
     }
   },
   "contact": {

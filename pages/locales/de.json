@@ -40,29 +40,11 @@
   },
   "projects": {
     "header": "Beispiel-Projekte",
-    "egon": {
-      "heading": "eGo^n",
-      "text": "Visualisierung von Szenariendaten aus dem Projekt eGo^n",
-      "aria": "Die eGo^n Web App in einem neuen Fenster öffnen",
-      "alt": "Logo vom eGo^n Projekt"
-    },
-    "enershelf": {
-      "heading": "Enershelf",
-      "text": "Unterstützung bei der Ermittlung des Marktpotenzials für photovoltaikgestützte Mini-Netze im Gesundheitssektor Ghanas mit dem Ziel, Energieknappheit zu überwinden und häufige Stromausfälle zu reduzieren",
-      "aria": "Die Enershelf Web App in einem neuen Fenster öffnen",
-      "alt": "Visualisierung der Karte von Ghana"
-    },
-    "cpnigeria": {
-      "heading": "community-minigrid-tool",
-      "text": "Toolbox zur Auslegung von Mini-Grid-Implementierungsplänen für Vertreter*innen nicht-elektrifizierter Gemeinschaften in Nigeria durch einen bottom-up Ansatz",
-      "aria": "Das community-minigrid-tool in einem neuen Fenster öffnen",
-      "alt": "Logo vom community-minigrid-tool Projekt"
-    },
-    "peoplesun": {
-      "heading": "Offgridplanners",
-      "text": "Open-Source-Tool für die Planung netzunabhängiger Systeme in Nigeria. Es führt eine räumliche Optimierung des Verteilungsnetzes durch und entwirft die Energiewandler und -speicher. Entwickelt im Rahmen des PeopleSuN-Projekts",
-      "aria": "Die Offgridplanners Web App in einem neuen Fenster öffnen",
-      "alt": "Bild mit verschiedenen Icons, die die Netzplanung darstellen"
+    "agora": {
+      "heading": "Photovoltaik- und Windflächenrechner",
+      "text": "Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt.",
+      "aria": "Der Photovoltaik- und Windflächenrechner in einem neuen Fenster öffnen",
+      "alt": "Bild des Photovoltaik- und Windflächenrechners"
     },
     "openplan": {
       "heading": "open-plan-tool",
@@ -70,23 +52,41 @@
       "aria": "Das open-plan-tool in einem neuen Fenster öffnen",
       "alt": "Bild von einem Hexagon, das eine Energiezelle darstellt"
     },
-    "rgi": {
-      "heading": "Renewables Grid Initiative",
-      "text": "Vergleichende Analyse des Flächenbedarfs für verschiedene Dekarbonisierungsszenarien",
-      "aria": "Die Renewables Grid Initiative Web App in einem neuen Fenster öffnen",
-      "alt": "Karte von Europa"
+    "peoplesun": {
+      "heading": "Offgridplanners",
+      "text": "Open-Source-Tool für die Planung netzunabhängiger Systeme in Nigeria. Es führt eine räumliche Optimierung des Verteilungsnetzes durch und entwirft die Energiewandler und -speicher. Entwickelt im Rahmen des PeopleSuN-Projekts",
+      "aria": "Die Offgridplanners Web App in einem neuen Fenster öffnen",
+      "alt": "Bild mit verschiedenen Icons, die die Netzplanung darstellen"
     },
-    "wwf": {
-      "heading": "WWF Energiewende-Dashboard",
-      "text": "Visualisierung der Klimakrise und Energiewende in Deutschland",
-      "aria": "Das WWF Energiewende-Dashboard in einem neuen Fenster öffnen",
-      "alt": "2 Visualisierungsbeispiele des WWF Energiewende-Dashboards auf Mobilgeräte"
+    "empowerplan": {
+      "heading": "EmPowerPlan",
+      "text": "Planungstool für die regionale Energiewende für die Region Oderland-Spree",
+      "aria": "Die EmPowerPlan-App in einem neuen Fenster öffnen",
+      "alt": "Logo vom EmPowerPlan Projekt"
     },
-    "agora": {
-      "heading": "Photovoltaik- und Windflächenrechner",
-      "text": "Das Web-Tool im Auftrag des Think Tanks Agora Energiewende zeigt, unter welchen Bedingungen ein Gebiet in Deutschland als Windpotenzialfläche oder zur Installation von Photovoltaikanlagen infrage kommt.",
-      "aria": "Der Photovoltaik- und Windflächenrechner in einem neuen Fenster öffnen",
-      "alt": "Bild des Photovoltaik- und Windflächenrechners"
+    "stadtlandenergie": {
+      "heading": "Stadt Land Energie",
+      "text": "Interkommunale Energiewendeszenarien und Wertschöpfung im Stadt-Land-Nexus",
+      "aria": "Die Stadt Land Energie Web App in einem neuen Fenster öffnen",
+      "alt": "Logo vom Stadt Land Energie Projekt"
+    },
+    "cpnigeria": {
+      "heading": "community-minigrid-tool",
+      "text": "Toolbox zur Auslegung von Mini-Grid-Implementierungsplänen für Vertreter*innen nicht-elektrifizierter Gemeinschaften in Nigeria durch einen bottom-up Ansatz",
+      "aria": "Das community-minigrid-tool in einem neuen Fenster öffnen",
+      "alt": "Logo vom community-minigrid-tool Projekt"
+    },
+    "enershelf": {
+      "heading": "Enershelf",
+      "text": "Unterstützung bei der Ermittlung des Marktpotenzials für photovoltaikgestützte Mini-Netze im Gesundheitssektor Ghanas mit dem Ziel, Energieknappheit zu überwinden und häufige Stromausfälle zu reduzieren",
+      "aria": "Die Enershelf Web App in einem neuen Fenster öffnen",
+      "alt": "Visualisierung der Karte von Ghana"
+    },
+    "buildingdialogue": {
+      "heading": "Building Dialogue",
+      "text": "Digitaler Wegweiser für energetische Gebäudesanierung",
+      "aria": "Die Building Dialogue Web App in einem neuen Fenster öffnen",
+      "alt": "Logo vom Building Dialogue Projekt"
     },
     "digiplan": {
       "heading": "DigiPlan Anhalt",
@@ -94,17 +94,35 @@
       "aria": "Die DigiPlan Anhalt Web App in einem neuen Fenster öffnen",
       "alt": "Bild des Digiplan-Logos"
     },
-    "abw": {
-      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
-      "text": "Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung.",
-      "aria": "Das StEmp-Tool Anhalt-Bitterfeld-Wittenberg in einem neuen Fenster öffnen",
-      "alt": "Bild des StEmp-Tools Anhalt-Bitterfeld-Wittenberg"
+    "wwf": {
+      "heading": "WWF Energiewende-Dashboard",
+      "text": "Visualisierung der Klimakrise und Energiewende in Deutschland",
+      "aria": "Das WWF Energiewende-Dashboard in einem neuen Fenster öffnen",
+      "alt": "2 Visualisierungsbeispiele des WWF Energiewende-Dashboards auf Mobilgeräte"
+    },
+    "egon": {
+      "heading": "eGo^n",
+      "text": "Visualisierung von Szenariendaten aus dem Projekt eGo^n",
+      "aria": "Die eGo^n Web App in einem neuen Fenster öffnen",
+      "alt": "Logo vom eGo^n Projekt"
+    },
+    "rgi": {
+      "heading": "Renewables Grid Initiative",
+      "text": "Vergleichende Analyse des Flächenbedarfs für verschiedene Dekarbonisierungsszenarien",
+      "aria": "Die Renewables Grid Initiative Web App in einem neuen Fenster öffnen",
+      "alt": "Karte von Europa"
     },
     "heat": {
       "heading": "StEmp Tool Wärme – Mecklenburg",
       "text": "Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen), mit dem man Szenarien für kostengünstige und umweltfreundliche Wärmeversorgung im eigenen Viertel erstellen kann.",
       "aria": "Das StEmp-Tool Wärme – Mecklenburg in einem neuen Fenster öffnen",
       "alt": "Bild des StEmp-Tools Wärme – Mecklenburg"
+    },
+    "abw": {
+      "heading": "StEmp-Tool Anhalt-Bitterfeld-Wittenberg",
+      "text": "Interaktives Stakeholder-Empowerment-Tool (Beteiligung von Bürger*innen) zur Simulation künftiger Energiesysteme der Region mit Verbrauch und Erzeugung.",
+      "aria": "Das StEmp-Tool Anhalt-Bitterfeld-Wittenberg in einem neuen Fenster öffnen",
+      "alt": "Bild des StEmp-Tools Anhalt-Bitterfeld-Wittenberg"
     }
   },
   "contact": {
