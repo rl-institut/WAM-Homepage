@@ -70,6 +70,12 @@
       "aria": "Open the Stadt-Land-Energie web app in a new window",
       "alt": "Stadt-Land-Energie project logo"
     },
+    "reenact": {
+      "heading": "ReEnAct Energieplaner",
+      "text": "Regional energy planner for Peenetal/Loitz – explore energy scenarios and actively shape decisions on the regional energy transition.",
+      "aria": "Open the ReEnAct Energieplaner in a new window",
+      "alt": "ReEnAct Energieplaner project logo"
+    },
     "cpnigeria": {
       "heading": "community-minigrid-tool",
       "text": "Toolbox to empower non-electrified communities in Nigeria to create their own mini-grid implementation plans through a bottom-up approach",
