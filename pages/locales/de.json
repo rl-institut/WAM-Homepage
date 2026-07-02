@@ -48,13 +48,13 @@
     },
     "openplan": {
       "heading": "open-plan-tool",
-      "text": "Ein sektorübergreifendes, offenes Tool für die optimierte Planung von Energiezellen",
+      "text": "Ein sektorübergreifendes Open-Source-Tool zur Energiesystemmodellierung per Drag-and-Drop-Oberfläche.",
       "aria": "Das open-plan-tool in einem neuen Fenster öffnen",
       "alt": "Bild von einem Hexagon, das eine Energiezelle darstellt"
     },
     "peoplesun": {
-      "heading": "Offgridplanners",
-      "text": "Open-Source-Tool für die Planung netzunabhängiger Systeme in Nigeria. Es führt eine räumliche Optimierung des Verteilungsnetzes durch und entwirft die Energiewandler und -speicher. Entwickelt im Rahmen des PeopleSuN-Projekts",
+      "heading": "Offgridplanner",
+      "text": "Open-Source-Tool für die Planung netzunabhängiger Systeme, inklusive räumlicher Optimierung des Verteilnetzes und Dimensionierung des Energiesystems.",
       "aria": "Die Offgridplanners Web App in einem neuen Fenster öffnen",
       "alt": "Bild mit verschiedenen Icons, die die Netzplanung darstellen"
     },

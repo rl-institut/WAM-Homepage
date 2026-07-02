@@ -48,13 +48,13 @@
     },
     "openplan": {
       "heading": "open-plan-tool",
-      "text": "A cross-sector, open-source tool for the optimized planning of energy cells",
+      "text": "A cross-sector open-source tool for energy system modeling via a drag-and-drop interface.",
       "aria": "Open the open-plan-tool in a new window",
       "alt": "Illustration of a hexagon showing what an energy cell is"
     },
     "peoplesun": {
-      "heading": "Offgridplanners",
-      "text": "Open source tool to plan off-grid systems in Nigeria. It performs a spatial optimization of the distribution grid as well as designs the energy converters and storages. Developped within the PeopleSuN project",
+      "heading": "Offgridplanner",
+      "text": "Open-source tool for planning off-grid systems, including spatial optimization of the distribution grid and energy system dimensioning.",
       "aria": "Open the Offgridplanners web app in a new window",
       "alt": "Illustration with different icons representing grid planning"
     },
